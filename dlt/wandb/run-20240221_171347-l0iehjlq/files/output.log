@@ -1,0 +1,2568 @@
+
+Epoch 0:  51%|█████████████████████████████████████████████████                                               | 24/47 [00:01<00:01, 21.08it/s, loss=0.12, lr=2.4e-6, step=24]
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+
+Epoch 0: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:02<00:00, 25.46it/s, loss=0.0916, lr=4.7e-6, step=47]
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([53, 20, 6])
+batch[image_features].shape:  torch.Size([53, 20, 512])
+batch[padding_mask].shape:  torch.Size([53, 20, 6])
+batch[cat].shape:  torch.Size([53, 20])
+Epoch 0: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:19<00:00, 25.46it/s, loss=0.0916, lr=4.7e-6, step=47]I0221 17:14:12.050884 139916848677248 cal_trainer2.py:311] Epoch 0, Avg Validation Loss: 0.08440540730953217, Avg Mean IoU: 0.06254759430885315
+Epoch 0: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:21<00:00,  2.20it/s, loss=0.0916, lr=4.7e-6, step=47]
+I0221 17:14:12.052082 139916848677248 logging.py:61] Saving current state to logs/test/checkpoints/checkpoint-0/
+W0221 17:14:12.053333 139916848677248 logging.py:61] Removed shared tensor {'embed_timestep.seq_pos_enc.pe'} while saving. This should be OK, but check by verifying that you don't receive any warning while reloading
+I0221 17:14:12.173737 139916848677248 logging.py:61] Model weights saved in logs/test/checkpoints/checkpoint-0/model.safetensors
+I0221 17:14:12.349967 139916848677248 logging.py:61] Optimizer state saved in logs/test/checkpoints/checkpoint-0/optimizer.bin
+I0221 17:14:12.350412 139916848677248 logging.py:61] Scheduler state saved in logs/test/checkpoints/checkpoint-0/scheduler.bin
+I0221 17:14:12.350521 139916848677248 logging.py:61] Sampler state for dataloader 0 saved in logs/test/checkpoints/checkpoint-0/sampler.bin
+I0221 17:14:12.350602 139916848677248 logging.py:61] Sampler state for dataloader 1 saved in logs/test/checkpoints/checkpoint-0/sampler_1.bin
+I0221 17:14:12.352250 139916848677248 logging.py:61] Random states saved in logs/test/checkpoints/checkpoint-0/random_states_0.pkl
+I0221 17:14:12.445353 139916848677248 cal_trainer2.py:347] Saving checkpoint to logs/test/checkpoints/checkpoint-0/
+
+Epoch 1:  98%|████████████████████████████████████████████████████████████████████████████████████████████  | 46/47 [00:02<00:00, 24.72it/s, loss=0.0748, lr=9.3e-6, step=93]
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([53, 20, 6])
+batch[image_features].shape:  torch.Size([53, 20, 512])
+batch[padding_mask].shape:  torch.Size([53, 20, 6])
+batch[cat].shape:  torch.Size([53, 20])
+Epoch 1: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:02<00:00, 24.72it/s, loss=0.0726, lr=9.4e-6, step=94]I0221 17:14:14.992826 139916848677248 cal_trainer2.py:311] Epoch 1, Avg Validation Loss: 0.07014457136392593, Avg Mean IoU: 0.08364458382129669
+Epoch 1: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:02<00:00, 18.46it/s, loss=0.0726, lr=9.4e-6, step=94]
+Epoch 2:  70%|████████████████████████████████████████████████████████████████▌                           | 33/47 [00:01<00:00, 24.40it/s, loss=0.0673, lr=1.27e-5, step=127]
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+Epoch 2: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:02<00:00, 25.58it/s, loss=0.0679, lr=1.41e-5, step=141]I0221 17:14:17.527325 139916848677248 cal_trainer2.py:311] Epoch 2, Avg Validation Loss: 0.06457696358362834, Avg Mean IoU: 0.10130272060632706
+Epoch 2: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:02<00:00, 18.55it/s, loss=0.0679, lr=1.41e-5, step=141]
+Epoch 3:  47%|███████████████████████████████████████████                                                 | 22/47 [00:01<00:01, 24.26it/s, loss=0.0592, lr=1.63e-5, step=163]
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([53, 20, 6])
+batch[image_features].shape:  torch.Size([53, 20, 512])
+batch[padding_mask].shape:  torch.Size([53, 20, 6])
+batch[cat].shape:  torch.Size([53, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+Epoch 3: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:02<00:00, 23.65it/s, loss=0.0615, lr=1.88e-5, step=188]I0221 17:14:20.049800 139916848677248 cal_trainer2.py:311] Epoch 3, Avg Validation Loss: 0.06016866738597552, Avg Mean IoU: 0.09132590144872665
+Epoch 3: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:02<00:00, 18.64it/s, loss=0.0615, lr=1.88e-5, step=188]
+Epoch 4:  19%|█████████████████▊                                                                           | 9/47 [00:00<00:02, 16.73it/s, loss=0.0611, lr=1.97e-5, step=197]
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([53, 20, 6])
+batch[image_features].shape:  torch.Size([53, 20, 512])
+batch[padding_mask].shape:  torch.Size([53, 20, 6])
+batch[cat].shape:  torch.Size([53, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+Epoch 4: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:02<00:00, 24.75it/s, loss=0.0651, lr=2.35e-5, step=235]I0221 17:14:22.586134 139916848677248 cal_trainer2.py:311] Epoch 4, Avg Validation Loss: 0.05888095746437708, Avg Mean IoU: 0.09858725965023041
+Epoch 4: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:02<00:00, 18.54it/s, loss=0.0651, lr=2.35e-5, step=235]
+Epoch 5:   0%|                                                                                                                                        | 0/47 [00:00<?, ?it/s]
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([53, 20, 6])
+batch[image_features].shape:  torch.Size([53, 20, 512])
+batch[padding_mask].shape:  torch.Size([53, 20, 6])
+batch[cat].shape:  torch.Size([53, 20])
+
+Epoch 5:  96%|█████████████████████████████████████████████████████████████████████████████████████████    | 45/47 [00:02<00:00, 24.80it/s, loss=0.0611, lr=2.8e-5, step=280]
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+Epoch 5: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:02<00:00, 22.42it/s, loss=0.0668, lr=2.82e-5, step=282]I0221 17:14:25.172989 139916848677248 cal_trainer2.py:311] Epoch 5, Avg Validation Loss: 0.0582630547384421, Avg Mean IoU: 0.08401235193014145
+Epoch 5: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:02<00:00, 18.18it/s, loss=0.0668, lr=2.82e-5, step=282]
+Epoch 6:  66%|████████████████████████████████████████████████████████████▋                               | 31/47 [00:01<00:00, 22.23it/s, loss=0.0618, lr=3.13e-5, step=313]
+#############################################################
+batch[geometry].shape:  torch.Size([53, 20, 6])
+batch[image_features].shape:  torch.Size([53, 20, 512])
+batch[padding_mask].shape:  torch.Size([53, 20, 6])
+batch[cat].shape:  torch.Size([53, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+Epoch 6: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:02<00:00, 25.37it/s, loss=0.0607, lr=3.29e-5, step=329]I0221 17:14:27.730859 139916848677248 cal_trainer2.py:311] Epoch 6, Avg Validation Loss: 0.05762656405568123, Avg Mean IoU: 0.08650841563940048
+Epoch 6: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:02<00:00, 18.38it/s, loss=0.0607, lr=3.29e-5, step=329]
+Epoch 7:  38%|███████████████████████████████████▏                                                        | 18/47 [00:00<00:01, 21.86it/s, loss=0.0602, lr=3.47e-5, step=347]
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([53, 20, 6])
+batch[image_features].shape:  torch.Size([53, 20, 512])
+batch[padding_mask].shape:  torch.Size([53, 20, 6])
+batch[cat].shape:  torch.Size([53, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+Epoch 7: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:02<00:00, 23.10it/s, loss=0.0622, lr=3.76e-5, step=376]I0221 17:14:30.341480 139916848677248 cal_trainer2.py:311] Epoch 7, Avg Validation Loss: 0.057227076341708503, Avg Mean IoU: 0.10029628872871399
+Epoch 7: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:02<00:00, 18.01it/s, loss=0.0622, lr=3.76e-5, step=376]
+Epoch 8:  11%|█████████▉                                                                                   | 5/47 [00:00<00:03, 11.91it/s, loss=0.0623, lr=3.81e-5, step=381]
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([53, 20, 6])
+batch[image_features].shape:  torch.Size([53, 20, 512])
+batch[padding_mask].shape:  torch.Size([53, 20, 6])
+batch[cat].shape:  torch.Size([53, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+
+Epoch 8: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:02<00:00, 25.03it/s, loss=0.0632, lr=4.23e-5, step=423]
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([53, 20, 6])
+batch[image_features].shape:  torch.Size([53, 20, 512])
+batch[padding_mask].shape:  torch.Size([53, 20, 6])
+batch[cat].shape:  torch.Size([53, 20])

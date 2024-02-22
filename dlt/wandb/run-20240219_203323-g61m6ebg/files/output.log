@@ -1,0 +1,102 @@
+
+  0%|                                                                                                                                                                   | 0/148 [00:00<?, ?it/s]
+
+  1%|█                                                                                                                                                          | 1/148 [00:04<11:52,  4.84s/it]
+
+  1%|██                                                                                                                                                         | 2/148 [00:08<10:01,  4.12s/it]
+
+  2%|███▏                                                                                                                                                       | 3/148 [00:11<09:07,  3.78s/it]
+The background image is not RGBA
+############### height가 1 보다 작음 ##################
+
+  3%|████▏                                                                                                                                                      | 4/148 [00:15<08:35,  3.58s/it]
+
+  3%|█████▏                                                                                                                                                     | 5/148 [00:18<08:23,  3.52s/it]
+The background image is not RGBA
+############### height가 1 보다 작음 ##################
+
+  4%|██████▎                                                                                                                                                    | 6/148 [00:21<08:13,  3.47s/it]
+
+  5%|███████▎                                                                                                                                                   | 7/148 [00:25<08:30,  3.62s/it]
+
+  5%|████████▍                                                                                                                                                  | 8/148 [00:29<08:19,  3.57s/it]
+The background image is not RGBA
+############### height가 1 보다 작음 ##################
+
+  6%|█████████▍                                                                                                                                                 | 9/148 [00:32<08:09,  3.52s/it]
+The background image is not RGBA
+############### height가 1 보다 작음 ##################
+
+  7%|██████████▍                                                                                                                                               | 10/148 [00:36<08:00,  3.49s/it]
+
+  7%|███████████▍                                                                                                                                              | 11/148 [00:39<07:56,  3.48s/it]
+The background image is not RGBA
+############### height가 1 보다 작음 ##################
+
+  8%|████████████▍                                                                                                                                             | 12/148 [00:42<07:50,  3.46s/it]
+The background image is not RGBA
+
+  9%|█████████████▌                                                                                                                                            | 13/148 [00:46<07:46,  3.45s/it]
+
+  9%|██████████████▌                                                                                                                                           | 14/148 [00:50<07:52,  3.52s/it]
+
+ 10%|███████████████▌                                                                                                                                          | 15/148 [00:53<07:57,  3.59s/it]
+
+ 11%|████████████████▋                                                                                                                                         | 16/148 [00:57<07:59,  3.63s/it]
+
+ 11%|█████████████████▋                                                                                                                                        | 17/148 [01:01<07:55,  3.63s/it]
+
+ 12%|██████████████████▋                                                                                                                                       | 18/148 [01:05<08:05,  3.73s/it]
+
+ 13%|███████████████████▊                                                                                                                                      | 19/148 [01:08<07:59,  3.72s/it]
+
+ 14%|████████████████████▊                                                                                                                                     | 20/148 [01:12<07:54,  3.71s/it]
+
+ 14%|█████████████████████▊                                                                                                                                    | 21/148 [01:16<07:49,  3.69s/it]
+
+ 15%|██████████████████████▉                                                                                                                                   | 22/148 [01:19<07:39,  3.65s/it]
+
+ 16%|███████████████████████▉                                                                                                                                  | 23/148 [01:23<07:51,  3.77s/it]
+
+ 16%|████████████████████████▉                                                                                                                                 | 24/148 [01:27<07:38,  3.70s/it]
+The background image is not RGBA
+
+ 17%|██████████████████████████                                                                                                                                | 25/148 [01:30<07:28,  3.65s/it]
+
+ 18%|███████████████████████████                                                                                                                               | 26/148 [01:34<07:26,  3.66s/it]
+The background image is not RGBA
+
+ 18%|████████████████████████████                                                                                                                              | 27/148 [01:38<07:22,  3.65s/it]
+The background image is not RGBA
+
+ 19%|█████████████████████████████▏                                                                                                                            | 28/148 [01:43<07:24,  3.71s/it]
+Traceback (most recent call last):
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py", line 277, in <module>
+    app.run(main)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py", line 167, in main
+    pred_geometry = sample_from_model(batch, model, config.device, noise_scheduler)*batch["padding_mask"][:, :, :4]
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py", line 58, in sample_from_model
+    geometry_pred = model(batch, noisy_batch, timesteps=t)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/models/CAL.py", line 108, in forward
+    output = self.seqTransEncoder(xseq)[1:] #time step embedding 제외
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 280, in forward
+    output = mod(output, src_mask=mask, src_key_padding_mask=src_key_padding_mask_for_layers)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 539, in forward
+    x = self.norm2(x + self._ff_block(x))
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/normalization.py", line 190, in forward
+    return F.layer_norm(
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/functional.py", line 2515, in layer_norm
+    return torch.layer_norm(input, normalized_shape, weight, bias, eps, torch.backends.cudnn.enabled)
+KeyboardInterrupt

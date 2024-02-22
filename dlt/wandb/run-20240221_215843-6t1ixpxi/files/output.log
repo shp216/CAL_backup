@@ -1,0 +1,25 @@
+
+
+  1%|▉                                                                                                                                       | 1/148 [00:07<17:46,  7.26s/it]
+
+  1%|█▊                                                                                                                                      | 2/148 [00:13<16:21,  6.73s/it]
+
+  2%|██▊                                                                                                                                     | 3/148 [00:19<15:31,  6.42s/it]
+
+  3%|███▋                                                                                                                                    | 4/148 [00:25<14:58,  6.24s/it]
+The background image is not RGBA
+############### height가 1 보다 작음 ##################
+############### height가 1 보다 작음 ##################
+  3%|███▋                                                                                                                                    | 4/148 [00:28<16:59,  7.08s/it]
+Traceback (most recent call last):
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py", line 554, in <module>
+    app.run(main)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py", line 444, in main
+    pred_geometry = sample_from_model(batch, model, config.device, noise_scheduler)*batch["padding_mask"][:, :, :4]
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py", line 345, in sample_from_model
+    noisy_batch['geometry'] = geometry_pred.prev_sample * batch['padding_mask'][:, :, :4]
+KeyboardInterrupt

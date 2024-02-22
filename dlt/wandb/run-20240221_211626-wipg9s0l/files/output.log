@@ -1,0 +1,62 @@
+
+
+
+Epoch 0: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:20<00:00, 12.74it/s, loss=0.0736, lr=4.7e-6, step=47]I0221 21:17:18.202614 140436020371840 cal_trainer2.py:311] Epoch 0, Avg Validation Loss: 0.07329892615477245, Avg Mean IoU: 0.07690897583961487
+Epoch 0: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:48<00:00,  1.02s/it, loss=0.0736, lr=4.7e-6, step=47]
+I0221 21:17:18.203670 140436020371840 logging.py:61] Saving current state to logs/test/checkpoints/checkpoint-0/
+W0221 21:17:18.205601 140436020371840 logging.py:61] Removed shared tensor {'embed_timestep.seq_pos_enc.pe'} while saving. This should be OK, but check by verifying that you don't receive any warning while reloading
+I0221 21:17:18.459117 140436020371840 logging.py:61] Model weights saved in logs/test/checkpoints/checkpoint-0/model.safetensors
+I0221 21:17:18.856101 140436020371840 logging.py:61] Optimizer state saved in logs/test/checkpoints/checkpoint-0/optimizer.bin
+I0221 21:17:18.856528 140436020371840 logging.py:61] Scheduler state saved in logs/test/checkpoints/checkpoint-0/scheduler.bin
+I0221 21:17:18.856650 140436020371840 logging.py:61] Sampler state for dataloader 0 saved in logs/test/checkpoints/checkpoint-0/sampler.bin
+I0221 21:17:18.856732 140436020371840 logging.py:61] Sampler state for dataloader 1 saved in logs/test/checkpoints/checkpoint-0/sampler_1.bin
+I0221 21:17:18.858379 140436020371840 logging.py:61] Random states saved in logs/test/checkpoints/checkpoint-0/random_states_0.pkl
+I0221 21:17:19.037381 140436020371840 cal_trainer2.py:347] Saving checkpoint to logs/test/checkpoints/checkpoint-0/
+
+Epoch 1: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:04<00:00, 11.10it/s, loss=0.0735, lr=9.4e-6, step=94]I0221 21:17:23.508456 140436020371840 cal_trainer2.py:311] Epoch 1, Avg Validation Loss: 0.06707541396220525, Avg Mean IoU: 0.08560140430927277
+Epoch 1: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:04<00:00, 10.51it/s, loss=0.0735, lr=9.4e-6, step=94]
+
+Epoch 2: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:04<00:00, 11.55it/s, loss=0.0658, lr=1.41e-5, step=141]I0221 21:17:27.920531 140436020371840 cal_trainer2.py:311] Epoch 2, Avg Validation Loss: 0.06061601638793945, Avg Mean IoU: 0.08089359849691391
+Epoch 2: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:04<00:00, 10.66it/s, loss=0.0658, lr=1.41e-5, step=141]
+
+Epoch 3: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:04<00:00, 11.72it/s, loss=0.0562, lr=1.88e-5, step=188]I0221 21:17:32.287368 140436020371840 cal_trainer2.py:311] Epoch 3, Avg Validation Loss: 0.05785253271460533, Avg Mean IoU: 0.08940400183200836
+Epoch 3: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:04<00:00, 10.77it/s, loss=0.0562, lr=1.88e-5, step=188]
+
+Epoch 4: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:03<00:00, 11.66it/s, loss=0.0528, lr=2.35e-5, step=235]I0221 21:17:36.558603 140436020371840 cal_trainer2.py:311] Epoch 4, Avg Validation Loss: 0.05083021645744642, Avg Mean IoU: 0.10307104885578156
+Epoch 4: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:04<00:00, 11.01it/s, loss=0.0528, lr=2.35e-5, step=235]
+
+Epoch 5: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:03<00:00, 11.74it/s, loss=0.0545, lr=2.82e-5, step=282]I0221 21:17:40.829319 140436020371840 cal_trainer2.py:311] Epoch 5, Avg Validation Loss: 0.05400827651222547, Avg Mean IoU: 0.09245461970567703
+Epoch 5: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:04<00:00, 11.01it/s, loss=0.0545, lr=2.82e-5, step=282]
+
+Epoch 6: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:04<00:00, 10.86it/s, loss=0.0492, lr=3.29e-5, step=329]I0221 21:17:45.169587 140436020371840 cal_trainer2.py:311] Epoch 6, Avg Validation Loss: 0.048806481063365936, Avg Mean IoU: 0.09119680523872375
+Epoch 6: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:04<00:00, 10.83it/s, loss=0.0492, lr=3.29e-5, step=329]
+
+Epoch 7: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:04<00:00, 11.41it/s, loss=0.0536, lr=3.76e-5, step=376]I0221 21:17:49.484432 140436020371840 cal_trainer2.py:311] Epoch 7, Avg Validation Loss: 0.047168525556723274, Avg Mean IoU: 0.09715955704450607
+Epoch 7: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:04<00:00, 10.90it/s, loss=0.0536, lr=3.76e-5, step=376]
+
+Epoch 8: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:03<00:00, 11.54it/s, loss=0.0436, lr=4.23e-5, step=423]I0221 21:17:53.766037 140436020371840 cal_trainer2.py:311] Epoch 8, Avg Validation Loss: 0.04519036288062731, Avg Mean IoU: 0.12121251225471497
+Epoch 8: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:04<00:00, 10.98it/s, loss=0.0436, lr=4.23e-5, step=423]
+
+Epoch 9: 100%|█████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:03<00:00, 11.60it/s, loss=0.0414, lr=4.7e-5, step=470]I0221 21:17:58.039986 140436020371840 cal_trainer2.py:311] Epoch 9, Avg Validation Loss: 0.040926999102036156, Avg Mean IoU: 0.08528608828783035
+Epoch 9: 100%|█████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:04<00:00, 11.00it/s, loss=0.0414, lr=4.7e-5, step=470]
+
+Epoch 10: 100%|███████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:04<00:00, 10.96it/s, loss=0.0399, lr=5.17e-5, step=517]I0221 21:18:02.388242 140436020371840 cal_trainer2.py:311] Epoch 10, Avg Validation Loss: 0.043770438681046166, Avg Mean IoU: 0.09446805715560913
+Epoch 10: 100%|███████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:04<00:00, 10.81it/s, loss=0.0399, lr=5.17e-5, step=517]
+
+
+Epoch 11: 100%|███████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:03<00:00, 11.67it/s, loss=0.0367, lr=5.64e-5, step=564]I0221 21:18:06.632742 140436020371840 cal_trainer2.py:311] Epoch 11, Avg Validation Loss: 0.04254589602351189, Avg Mean IoU: 0.10278011113405228
+Epoch 11: 100%|███████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:04<00:00, 11.08it/s, loss=0.0367, lr=5.64e-5, step=564]
+Epoch 12:  98%|███████████████████████████████████████████████████████████████████████████████████████████  | 46/47 [00:03<00:00, 12.00it/s, loss=0.043, lr=6.1e-5, step=610]Traceback (most recent call last):
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/main.py", line 119, in <module>
+    app.run(main)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/main.py", line 94, in main
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/trainers/cal_trainer2.py", line 148, in train
+    self.train_epoch_CAL(epoch)
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/trainers/cal_trainer2.py", line 218, in train_epoch_CAL
+    train_losses.append(train_loss.item())
+KeyboardInterrupt

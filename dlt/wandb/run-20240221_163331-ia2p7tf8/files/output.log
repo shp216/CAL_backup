@@ -1,0 +1,191 @@
+
+Epoch 0:  55%|████████████████████████████████████████████████████▌                                          | 26/47 [00:01<00:00, 22.86it/s, loss=0.117, lr=2.6e-6, step=26]
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+#############################################################
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20, 1])
+Epoch 0:  55%|████████████████████████████████████████████████████▌                                          | 26/47 [00:01<00:00, 22.86it/s, loss=0.117, lr=2.6e-6, step=26]Traceback (most recent call last):
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/main.py", line 119, in <module>
+    app.run(main)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/main.py", line 94, in main
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/trainers/cal_trainer2.py", line 148, in train
+    self.train_epoch_CAL(epoch)
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/trainers/cal_trainer2.py", line 235, in train_epoch_CAL
+    self.optimizer.step()
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/accelerate/optimizer.py", line 145, in step
+    self.optimizer.step(closure)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/optim/lr_scheduler.py", line 68, in wrapper
+    return wrapped(*args, **kwargs)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/optim/optimizer.py", line 140, in wrapper
+    out = func(*args, **kwargs)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/optim/adamw.py", line 162, in step
+    adamw(params_with_grad,
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/optim/adamw.py", line 219, in adamw
+    func(params,
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/optim/adamw.py", line 273, in _single_tensor_adamw
+    exp_avg.mul_(beta1).add_(grad, alpha=1 - beta1)
+KeyboardInterrupt

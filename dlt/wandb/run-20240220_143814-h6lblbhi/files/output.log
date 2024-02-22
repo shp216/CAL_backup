@@ -1,0 +1,37 @@
+I0220 14:38:18.259186 140622539116928 inference.py:128] Loading model from checkpoint-799...
+I0220 14:38:18.287884 140622539116928 inference.py:128] Loading model from checkpoint-899...
+I0220 14:38:18.314591 140622539116928 inference.py:128] Loading model from checkpoint-999...
+I0220 14:38:18.370936 140622539116928 inference.py:128] Loading model from checkpoint-1099...
+I0220 14:38:18.399231 140622539116928 inference.py:128] Loading model from checkpoint-1199...
+I0220 14:38:18.428512 140622539116928 inference.py:128] Loading model from checkpoint-1299...
+I0220 14:38:18.455708 140622539116928 inference.py:128] Loading model from checkpoint-1399...
+I0220 14:38:18.482309 140622539116928 inference.py:128] Loading model from checkpoint-1499...
+
+  0%|                                                                                                                                                        | 1/2997 [00:05<4:12:40,  5.06s/it]
+
+  0%|                                                                                                                                                        | 2/2997 [00:09<3:46:33,  4.54s/it]
+  0%|                                                                                                                                                        | 2/2997 [00:10<4:22:20,  5.26s/it]
+Traceback (most recent call last):
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py", line 277, in <module>
+    app.run(main)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py", line 167, in main
+    pred_geometry = sample_from_model(batch, model, config.device, noise_scheduler)*batch["padding_mask"][:, :, :4]
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py", line 58, in sample_from_model
+    geometry_pred = model(batch, noisy_batch, timesteps=t)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/models/CAL.py", line 108, in forward
+    output = self.seqTransEncoder(xseq)[1:] #time step embedding 제외
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 280, in forward
+    output = mod(output, src_mask=mask, src_key_padding_mask=src_key_padding_mask_for_layers)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 538, in forward
+    x = self.norm1(x + self._sa_block(x, src_mask, src_key_padding_mask))
+KeyboardInterrupt

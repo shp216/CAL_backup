@@ -1,0 +1,21 @@
+
+Epoch 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:02<00:00, 26.90it/s, loss=0.0744, lr=4.7e-6, step=47]Traceback (most recent call last):
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/main.py", line 119, in <module>
+    app.run(main)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/main.py", line 94, in main
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/trainers/cal_trainer2.py", line 148, in train
+    self.train_epoch_CAL(epoch)
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/trainers/cal_trainer2.py", line 287, in train_epoch_CAL
+    val_pred_geometry_1000 = sample_from_model(val_batch, self.model, device, self.diffusion, geometry_scale)
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/trainers/cal_trainer2.py", line 62, in sample_from_model
+    geometry_pred = diffusion.inference_step(geometry_pred,
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/diffusion.py", line 190, in inference_step
+    bbox = super().step(cont_output, timestep.detach().item(), sample, generator, return_dict)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/diffusers/schedulers/scheduling_ddpm.py", line 475, in step
+    pred_prev_sample = pred_original_sample_coeff * pred_original_sample + current_sample_coeff * sample
+RuntimeError: The size of tensor a (4) must match the size of tensor b (6) at non-singleton dimension 2

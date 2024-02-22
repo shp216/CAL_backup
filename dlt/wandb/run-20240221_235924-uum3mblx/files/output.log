@@ -1,0 +1,43 @@
+Epoch 0:   0%|                                                                                                                                        | 0/47 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/main.py", line 119, in <module>
+    app.run(main)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/main.py", line 94, in main
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/trainers/cal_trainer2.py", line 148, in train
+    self.train_epoch_CAL(epoch)
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/trainers/cal_trainer2.py", line 214, in train_epoch_CAL
+    geometry_predict = self.model(batch, noisy_batch, t)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/models/CAL.py", line 124, in forward
+    output = self.seqTransEncoder(xseq, src_key_padding_mask = key_padding_mask)[1:] #time step embedding 제외
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 280, in forward
+    output = mod(output, src_mask=mask, src_key_padding_mask=src_key_padding_mask_for_layers)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 538, in forward
+    x = self.norm1(x + self._sa_block(x, src_mask, src_key_padding_mask))
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 546, in _sa_block
+    x = self.self_attn(x, x, x,
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/activation.py", line 1167, in forward
+    attn_output, attn_output_weights = F.multi_head_attention_forward(
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/functional.py", line 5130, in multi_head_attention_forward
+    assert key_padding_mask.shape == (bsz, src_len), \
+AssertionError: expecting key_padding_mask shape of (64, 21), but got torch.Size([64, 20])
+#############################################################################
+padding_mask:  tensor([[ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        ...,
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False]], device='cuda:0') torch.Size([64, 20])
+#############################################################################

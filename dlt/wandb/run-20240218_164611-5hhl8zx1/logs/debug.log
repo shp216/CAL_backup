@@ -1,0 +1,27 @@
+2024-02-18 16:46:11,804 INFO    MainThread:1235749 [wandb_setup.py:_flush():76] Current SDK version is 0.16.2
+2024-02-18 16:46:11,805 INFO    MainThread:1235749 [wandb_setup.py:_flush():76] Configure stats pid to 1235749
+2024-02-18 16:46:11,805 INFO    MainThread:1235749 [wandb_setup.py:_flush():76] Loading settings from /home/mineslab-ubuntu/.config/wandb/settings
+2024-02-18 16:46:11,805 INFO    MainThread:1235749 [wandb_setup.py:_flush():76] Loading settings from /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/settings
+2024-02-18 16:46:11,805 INFO    MainThread:1235749 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-02-18 16:46:11,805 INFO    MainThread:1235749 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': True}
+2024-02-18 16:46:11,805 INFO    MainThread:1235749 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'dlt/main.py', 'program_abspath': '/home/mineslab-ubuntu/KDH_CAL/dlt/main.py', 'program': '/home/mineslab-ubuntu/KDH_CAL/dlt/main.py'}
+2024-02-18 16:46:11,805 INFO    MainThread:1235749 [wandb_setup.py:_flush():76] calling init triggers
+2024-02-18 16:46:11,806 INFO    MainThread:1235749 [wandb_setup.py:_flush():76] wandb.init called with sweep_config: {}
+config: {}
+2024-02-18 16:46:11,806 INFO    MainThread:1235749 [wandb_setup.py:_flush():76] calling init triggers
+2024-02-18 16:46:11,806 INFO    MainThread:1235749 [wandb_setup.py:_flush():76] wandb.init called with sweep_config: {}
+config: {'activation': 'gelu', 'beta_schedule': 'squaredcos_cap_v2', 'categories_num': 7, 'cls_emb_size': 64, 'cond_emb_size': 224, 'dataset': 'canva', 'dataset_path': Path('dataset'), 'device': 'cuda', 'dropout_r': 0.0, 'latent_dim': 512, 'log_dir': Path('logs/test'), 'log_interval': 2647, 'max_num_comp': 20, 'num_cont_timesteps': 1000, 'num_heads': 8, 'num_layers': 4, 'resume_from_checkpoint': None, 'save_interval': 50000, 'seed': 42, 'train_clip_json': Path('dataset/train_clip.json'), 'train_json': Path('dataset/train_canva.json'), 'val_clip_json': Path('dataset/val_clip.json'), 'val_json': Path('dataset/val_canva.json')}
+2024-02-18 16:46:11,806 INFO    MainThread:1235749 [wandb_init.py:_log_setup():526] Logging user logs to /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_164611-5hhl8zx1/logs/debug.log
+2024-02-18 16:46:11,806 INFO    MainThread:1235749 [wandb_init.py:_log_setup():527] Logging internal logs to /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_164611-5hhl8zx1/logs/debug-internal.log
+2024-02-18 16:46:11,806 INFO    MainThread:1235749 [wandb_init.py:init():566] calling init triggers
+2024-02-18 16:46:11,806 INFO    MainThread:1235749 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'epochs': 1000, 'normalize interval': (-1, 1)}
+2024-02-18 16:46:11,806 INFO    MainThread:1235749 [wandb_init.py:init():616] starting backend
+2024-02-18 16:46:11,806 INFO    MainThread:1235749 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-02-18 16:46:11,845 INFO    MainThread:1235749 [backend.py:ensure_launched():206] starting backend process...
+2024-02-18 16:46:11,868 INFO    MainThread:1235749 [backend.py:ensure_launched():211] started backend process with pid: 1235825
+2024-02-18 16:46:11,868 INFO    MainThread:1235749 [wandb_init.py:init():628] backend started and connected
+2024-02-18 16:46:11,872 INFO    MainThread:1235749 [wandb_init.py:init():720] updated telemetry
+2024-02-18 16:46:11,938 INFO    MainThread:1235749 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-02-18 16:46:12,661 ERROR   MainThread:1235749 [wandb_init.py:init():779] encountered error: The API key you provided is either invalid or missing.  If the `WANDB_API_KEY` environment variable is set, make sure it is correct. Otherwise, to resolve this issue, you may try running the 'wandb login --relogin' command. If you are using a local server, make sure that you're using the correct hostname. If you're not sure, you can try logging in again using the 'wandb login --relogin --host [hostname]' command.(Error 401: Unauthorized)
+2024-02-18 16:46:13,890 INFO    MainThread:1235749 [wandb_init.py:teardown():352] tearing down wandb.init

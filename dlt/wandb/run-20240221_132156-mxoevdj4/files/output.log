@@ -1,0 +1,14 @@
+Epoch 0:   0%|                                                                                                                                                           | 0/47 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/main.py", line 119, in <module>
+    app.run(main)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/main.py", line 94, in main
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/trainers/cal_trainer2.py", line 148, in train
+    self.train_epoch_CAL(epoch)
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/trainers/cal_trainer2.py", line 228, in train_epoch_CAL
+    true_box, pred_box = transform(true_geometry[:,:,:4], pred_geometry[:,:,:4], self.scaling_size)
+TypeError: transform() takes 2 positional arguments but 3 were given

@@ -1,0 +1,21 @@
+
+
+
+Epoch 0:  35%|████████████████████████████████████████▋                                                                           | 33/94 [00:04<00:05, 10.53it/s, loss=7.7, lr=3.3e-8, step=33]Traceback (most recent call last):
+  File "/home/mineslab-ubuntu/KDH_CAL/dlt/main.py", line 118, in <module>
+    app.run(main)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/mineslab-ubuntu/KDH_CAL/dlt/main.py", line 93, in main
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+  File "/home/mineslab-ubuntu/KDH_CAL/dlt/trainers/cal_trainer.py", line 106, in train
+    self.train_epoch_CAL(epoch)
+  File "/home/mineslab-ubuntu/KDH_CAL/dlt/trainers/cal_trainer.py", line 194, in train_epoch_CAL
+    ious = get_iou(true_box, pred_box)
+  File "/home/mineslab-ubuntu/KDH_CAL/dlt/evaluation/iou.py", line 69, in get_iou
+    iou[i] = calculate_iou(real_box[i], predicted_box[i])
+  File "/home/mineslab-ubuntu/KDH_CAL/dlt/evaluation/iou.py", line 40, in calculate_iou
+    intersection_area = max(0, x_max - x_min) * max(0, y_max - y_min)
+KeyboardInterrupt

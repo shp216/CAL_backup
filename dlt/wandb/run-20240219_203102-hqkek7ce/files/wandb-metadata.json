@@ -1,0 +1,135 @@
+{
+    "os": "Linux-5.15.0-91-generic-x86_64-with-glibc2.31",
+    "python": "3.9.18",
+    "heartbeatAt": "2024-02-19T11:31:02.936814",
+    "startedAt": "2024-02-19T11:31:02.223907",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--config",
+        "configs/remote/CAL_canva_config.py",
+        "--workdir",
+        "test",
+        "--save",
+        "True"
+    ],
+    "state": "running",
+    "program": "/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py",
+    "codePathLocal": "inference.py",
+    "codePath": "dlt/inference.py",
+    "git": {
+        "remote": "https://github.com/DH1929ds/KDH_CAL.git",
+        "commit": "e05d2cb49e5e04ec28fee35fef16dee7fd1fcd6c"
+    },
+    "email": "qkrtpghks1214@gmail.com",
+    "root": "/home/mineslab-ubuntu/KDH_CAL2",
+    "host": "mineslabubuntu-OMEN-by-HP-Obelisk-Desktop-875-1xxx",
+    "username": "mineslab-ubuntu",
+    "executable": "/home/mineslab-ubuntu/anaconda3/envs/DLT/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3538.575875,
+        "min": 800.0,
+        "max": 5000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3799.666,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 2617.214,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 5000.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 442.83177185058594,
+            "used": 359.16050720214844
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3070 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3070 Ti",
+            "memory_total": 8361213952
+        }
+    ],
+    "memory": {
+        "total": 125.6680908203125
+    }
+}

@@ -1,0 +1,19 @@
+2024-02-19 01:41:06,833 INFO    StreamThr :1370683 [internal.py:wandb_internal():86] W&B internal server running at pid: 1370683, started at: 2024-02-19 01:41:06.833694
+2024-02-19 01:41:06,835 DEBUG   HandlerThread:1370683 [handler.py:handle_request():146] handle_request: status
+2024-02-19 01:41:06,836 INFO    WriterThread:1370683 [datastore.py:open_for_write():87] open: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_014106-0ps9j2r8/run-0ps9j2r8.wandb
+2024-02-19 01:41:06,836 DEBUG   SenderThread:1370683 [sender.py:send():382] send: header
+2024-02-19 01:41:06,905 DEBUG   SenderThread:1370683 [sender.py:send():382] send: run
+2024-02-19 01:41:07,518 DEBUG   HandlerThread:1370683 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-19 01:41:07,518 INFO    HandlerThread:1370683 [handler.py:finish():869] shutting down handler
+2024-02-19 01:41:07,757 INFO    SenderThread:1370683 [dir_watcher.py:__init__():211] watching files in: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_014106-0ps9j2r8/files
+2024-02-19 01:41:07,757 INFO    SenderThread:1370683 [sender.py:_start_run_threads():1136] run started: 0ps9j2r8 with start time 1708274466.833439
+2024-02-19 01:41:07,757 INFO    SenderThread:1370683 [sender.py:finish():1572] shutting down sender
+2024-02-19 01:41:07,757 INFO    SenderThread:1370683 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-19 01:41:07,906 INFO    WriterThread:1370683 [datastore.py:close():296] close: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_014106-0ps9j2r8/run-0ps9j2r8.wandb
+2024-02-19 01:41:08,757 INFO    SenderThread:1370683 [dir_watcher.py:finish():388] scan: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_014106-0ps9j2r8/files
+2024-02-19 01:41:08,758 INFO    SenderThread:1370683 [dir_watcher.py:finish():402] scan save: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_014106-0ps9j2r8/files/config.yaml config.yaml
+2024-02-19 01:41:08,758 INFO    SenderThread:1370683 [file_pusher.py:finish():175] shutting down file pusher
+2024-02-19 01:41:08,759 INFO    SenderThread:1370683 [file_pusher.py:join():181] waiting for file pusher
+2024-02-19 01:41:09,619 INFO    wandb-upload_0:1370683 [upload_job.py:push():131] Uploaded file /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_014106-0ps9j2r8/files/config.yaml
+2024-02-19 01:41:10,261 INFO    SenderThread:1370683 [file_stream.py:finish():595] file stream finish called
+2024-02-19 01:41:10,532 INFO    SenderThread:1370683 [file_stream.py:finish():599] file stream finish is done

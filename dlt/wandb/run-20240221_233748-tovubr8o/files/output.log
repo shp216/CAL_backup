@@ -1,0 +1,129 @@
+
+Epoch 0:  23%|██████████████████████▍                                                                         | 11/47 [00:01<00:03,  9.28it/s, loss=4.86, lr=1.1e-6, step=11]
+#############################################################################
+padding_mask:  tensor([[ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        ...,
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False]], device='cuda:0') torch.Size([64, 20])
+#############################################################################
+#############################################################################
+padding_mask:  tensor([[ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        ...,
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False]], device='cuda:0') torch.Size([64, 20])
+#############################################################################
+#############################################################################
+padding_mask:  tensor([[ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        ...,
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False]], device='cuda:0') torch.Size([64, 20])
+#############################################################################
+#############################################################################
+padding_mask:  tensor([[ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        ...,
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False]], device='cuda:0') torch.Size([64, 20])
+#############################################################################
+#############################################################################
+padding_mask:  tensor([[ True,  True,  True,  ...,  True, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ...,  True, False, False],
+        ...,
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True, False,  ..., False, False, False]], device='cuda:0') torch.Size([64, 20])
+#############################################################################
+#############################################################################
+padding_mask:  tensor([[ True,  True,  True,  ...,  True,  True, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        ...,
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False]], device='cuda:0') torch.Size([64, 20])
+#############################################################################
+#############################################################################
+padding_mask:  tensor([[ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        ...,
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False]], device='cuda:0') torch.Size([64, 20])
+#############################################################################
+#############################################################################
+padding_mask:  tensor([[ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        ...,
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False]], device='cuda:0') torch.Size([64, 20])
+#############################################################################
+#############################################################################
+padding_mask:  tensor([[ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ...,  True, False, False],
+        ...,
+        [ True,  True,  True,  ...,  True,  True, False],
+        [ True,  True,  True,  ...,  True, False, False],
+        [ True,  True,  True,  ..., False, False, False]], device='cuda:0') torch.Size([64, 20])
+#############################################################################
+#############################################################################
+padding_mask:  tensor([[ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ...,  True, False, False],
+        ...,
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False]], device='cuda:0') torch.Size([64, 20])
+#############################################################################
+#############################################################################
+padding_mask:  tensor([[ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        ...,
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False]], device='cuda:0') torch.Size([64, 20])
+#############################################################################
+#############################################################################
+padding_mask:  tensor([[ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ..., False, False, False],
+        ...,
+        [ True,  True,  True,  ..., False, False, False],
+        [ True,  True,  True,  ...,  True,  True, False],
+        [ True,  True,  True,  ..., False, False, False]], device='cuda:0') torch.Size([64, 20])
+Epoch 0:  23%|██████████████████████▍                                                                         | 11/47 [00:20<00:03,  9.28it/s, loss=4.86, lr=1.1e-6, step=11]Traceback (most recent call last):
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/main.py", line 119, in <module>
+    app.run(main)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/main.py", line 94, in main
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/trainers/cal_trainer2.py", line 148, in train
+    self.train_epoch_CAL(epoch)
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/trainers/cal_trainer2.py", line 223, in train_epoch_CAL
+    self.accelerator.backward(train_loss)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/accelerate/accelerator.py", line 1964, in backward
+    loss.backward(**kwargs)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/_tensor.py", line 488, in backward
+    torch.autograd.backward(
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/autograd/__init__.py", line 197, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

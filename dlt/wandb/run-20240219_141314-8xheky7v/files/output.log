@@ -1,0 +1,226 @@
+I0219 14:13:17.934338 140392013128064 inference.py:128] Loading model from checkpoint-19...
+I0219 14:13:17.963865 140392013128064 inference.py:128] Loading model from checkpoint-29...
+I0219 14:13:18.033295 140392013128064 inference.py:128] Loading model from checkpoint-39...
+I0219 14:13:18.060570 140392013128064 inference.py:128] Loading model from checkpoint-49...
+
+  0%|                                                                                                                                                        | 1/2997 [00:05<4:17:52,  5.16s/it]
+
+  0%|                                                                                                                                                        | 2/2997 [00:09<3:48:44,  4.58s/it]
+
+  0%|▏                                                                                                                                                       | 3/2997 [00:13<3:31:55,  4.25s/it]
+
+  0%|▏                                                                                                                                                       | 4/2997 [00:16<3:23:01,  4.07s/it]
+
+  0%|▎                                                                                                                                                       | 5/2997 [00:21<3:24:36,  4.10s/it]
+
+  0%|▎                                                                                                                                                       | 6/2997 [00:25<3:21:36,  4.04s/it]
+
+  0%|▎                                                                                                                                                       | 7/2997 [00:29<3:24:25,  4.10s/it]
+
+  0%|▍                                                                                                                                                       | 8/2997 [00:33<3:24:12,  4.10s/it]
+
+  0%|▍                                                                                                                                                       | 9/2997 [00:37<3:25:29,  4.13s/it]
+
+  0%|▌                                                                                                                                                      | 10/2997 [00:41<3:23:49,  4.09s/it]
+
+  0%|▌                                                                                                                                                      | 11/2997 [00:45<3:19:39,  4.01s/it]
+
+  0%|▌                                                                                                                                                      | 12/2997 [00:49<3:21:57,  4.06s/it]
+
+  0%|▋                                                                                                                                                      | 13/2997 [00:53<3:23:27,  4.09s/it]
+The background image is not RGBA
+
+
+  1%|▊                                                                                                                                                      | 15/2997 [01:01<3:16:47,  3.96s/it]
+
+  1%|▊                                                                                                                                                      | 16/2997 [01:05<3:09:25,  3.81s/it]
+The background image is not RGBA
+############### height가 1 보다 작음 ##################
+############### height가 1 보다 작음 ##################
+
+  1%|▊                                                                                                                                                      | 17/2997 [01:08<3:02:59,  3.68s/it]
+The background image is not RGBA
+############### height가 1 보다 작음 ##################
+
+  1%|▉                                                                                                                                                      | 18/2997 [01:11<2:57:38,  3.58s/it]
+The background image is not RGBA
+
+  1%|▉                                                                                                                                                      | 19/2997 [01:15<2:53:43,  3.50s/it]
+The background image is not RGBA
+############### height가 1 보다 작음 ##################
+
+  1%|█                                                                                                                                                      | 20/2997 [01:18<2:50:53,  3.44s/it]
+The background image is not RGBA
+
+  1%|█                                                                                                                                                      | 21/2997 [01:21<2:50:03,  3.43s/it]
+
+  1%|█                                                                                                                                                      | 22/2997 [01:25<2:49:20,  3.42s/it]
+The background image is not RGBA
+############### height가 1 보다 작음 ##################
+
+  1%|█▏                                                                                                                                                     | 23/2997 [01:28<2:48:31,  3.40s/it]
+
+  1%|█▏                                                                                                                                                     | 24/2997 [01:31<2:47:03,  3.37s/it]
+The background image is not RGBA
+
+  1%|█▎                                                                                                                                                     | 25/2997 [01:35<2:49:24,  3.42s/it]
+
+  1%|█▎                                                                                                                                                     | 26/2997 [01:38<2:51:40,  3.47s/it]
+
+  1%|█▎                                                                                                                                                     | 27/2997 [01:42<2:54:03,  3.52s/it]
+The background image is not RGBA
+The background image is not RGBA
+############### width가 1 보다 작음 ##################
+
+  1%|█▍                                                                                                                                                     | 28/2997 [01:46<2:54:32,  3.53s/it]
+
+
+  1%|█▌                                                                                                                                                     | 30/2997 [01:53<3:02:22,  3.69s/it]
+
+  1%|█▌                                                                                                                                                     | 31/2997 [01:57<3:04:14,  3.73s/it]
+
+  1%|█▌                                                                                                                                                     | 32/2997 [02:01<3:06:17,  3.77s/it]
+
+  1%|█▋                                                                                                                                                     | 33/2997 [02:05<3:04:09,  3.73s/it]
+
+  1%|█▋                                                                                                                                                     | 34/2997 [02:08<3:03:40,  3.72s/it]
+
+  1%|█▊                                                                                                                                                     | 35/2997 [02:12<3:03:37,  3.72s/it]
+The background image is not RGBA
+############### height가 1 보다 작음 ##################
+
+
+  1%|█▊                                                                                                                                                     | 37/2997 [02:19<3:01:16,  3.67s/it]
+
+  1%|█▉                                                                                                                                                     | 38/2997 [02:23<2:56:02,  3.57s/it]
+
+  1%|█▉                                                                                                                                                     | 39/2997 [02:26<2:52:37,  3.50s/it]
+The background image is not RGBA
+############### height가 1 보다 작음 ##################
+The background image is not RGBA
+
+
+  1%|██                                                                                                                                                     | 41/2997 [02:33<2:52:11,  3.50s/it]
+The background image is not RGBA
+
+  1%|██                                                                                                                                                     | 42/2997 [02:36<2:51:12,  3.48s/it]
+The background image is not RGBA
+
+  1%|██▏                                                                                                                                                    | 43/2997 [02:40<2:52:40,  3.51s/it]
+The background image is not RGBA
+
+  1%|██▏                                                                                                                                                    | 44/2997 [02:43<2:49:57,  3.45s/it]
+
+  2%|██▎                                                                                                                                                    | 45/2997 [02:47<2:50:47,  3.47s/it]
+The background image is not RGBA
+
+  2%|██▎                                                                                                                                                    | 46/2997 [02:50<2:51:17,  3.48s/it]
+The background image is not RGBA
+
+  2%|██▎                                                                                                                                                    | 47/2997 [02:54<2:48:46,  3.43s/it]
+
+  2%|██▍                                                                                                                                                    | 48/2997 [02:57<2:51:28,  3.49s/it]
+
+  2%|██▍                                                                                                                                                    | 49/2997 [03:01<2:49:51,  3.46s/it]
+
+  2%|██▌                                                                                                                                                    | 50/2997 [03:04<2:49:15,  3.45s/it]
+
+  2%|██▌                                                                                                                                                    | 51/2997 [03:07<2:47:49,  3.42s/it]
+
+  2%|██▌                                                                                                                                                    | 52/2997 [03:11<2:45:55,  3.38s/it]
+
+  2%|██▋                                                                                                                                                    | 53/2997 [03:14<2:45:55,  3.38s/it]
+
+  2%|██▋                                                                                                                                                    | 54/2997 [03:17<2:45:34,  3.38s/it]
+
+  2%|██▊                                                                                                                                                    | 55/2997 [03:21<2:44:39,  3.36s/it]
+The background image is not RGBA
+
+  2%|██▊                                                                                                                                                    | 56/2997 [03:24<2:46:13,  3.39s/it]
+The background image is not RGBA
+
+
+  2%|██▉                                                                                                                                                    | 58/2997 [03:31<2:47:01,  3.41s/it]
+
+  2%|██▉                                                                                                                                                    | 59/2997 [03:35<2:48:14,  3.44s/it]
+
+  2%|███                                                                                                                                                    | 60/2997 [03:38<2:50:05,  3.47s/it]
+The background image is not RGBA
+The background image is not RGBA
+############### width가 1 보다 작음 ##################
+
+
+  2%|███                                                                                                                                                    | 62/2997 [03:45<2:50:05,  3.48s/it]
+
+  2%|███▏                                                                                                                                                   | 63/2997 [03:48<2:47:28,  3.42s/it]
+
+  2%|███▏                                                                                                                                                   | 64/2997 [03:52<2:47:25,  3.42s/it]
+
+  2%|███▎                                                                                                                                                   | 65/2997 [03:55<2:47:37,  3.43s/it]
+The background image is not RGBA
+
+  2%|███▎                                                                                                                                                   | 66/2997 [03:59<2:48:22,  3.45s/it]
+The background image is not RGBA
+############### width가 1 보다 작음 ##################
+############### width가 1 보다 작음 ##################
+############### width가 1 보다 작음 ##################
+############### width가 1 보다 작음 ##################
+
+  2%|███▍                                                                                                                                                   | 67/2997 [04:03<2:55:29,  3.59s/it]
+
+  2%|███▍                                                                                                                                                   | 68/2997 [04:07<2:59:42,  3.68s/it]
+
+  2%|███▍                                                                                                                                                   | 69/2997 [04:11<3:04:34,  3.78s/it]
+
+  2%|███▌                                                                                                                                                   | 70/2997 [04:14<3:04:55,  3.79s/it]
+
+  2%|███▌                                                                                                                                                   | 71/2997 [04:18<3:09:15,  3.88s/it]
+
+  2%|███▋                                                                                                                                                   | 72/2997 [04:22<3:04:11,  3.78s/it]
+The background image is not RGBA
+
+  2%|███▋                                                                                                                                                   | 73/2997 [04:26<3:08:00,  3.86s/it]
+
+  2%|███▋                                                                                                                                                   | 74/2997 [04:30<3:05:41,  3.81s/it]
+
+
+  3%|███▊                                                                                                                                                   | 76/2997 [04:37<3:04:32,  3.79s/it]
+
+  3%|███▉                                                                                                                                                   | 77/2997 [04:41<2:59:14,  3.68s/it]
+
+  3%|███▉                                                                                                                                                   | 78/2997 [04:44<2:54:10,  3.58s/it]
+
+  3%|███▉                                                                                                                                                   | 79/2997 [04:48<2:51:07,  3.52s/it]
+The background image is not RGBA
+############### width가 1 보다 작음 ##################
+  3%|███▉                                                                                                                                                   | 79/2997 [04:51<2:59:18,  3.69s/it]
+Traceback (most recent call last):
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py", line 277, in <module>
+    app.run(main)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py", line 167, in main
+    pred_geometry = sample_from_model(batch, model, config.device, noise_scheduler)*batch["padding_mask"][:, :, :4]
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py", line 58, in sample_from_model
+    geometry_pred = model(batch, noisy_batch, timesteps=t)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/models/CAL.py", line 108, in forward
+    output = self.seqTransEncoder(xseq)[1:] #time step embedding 제외
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 280, in forward
+    output = mod(output, src_mask=mask, src_key_padding_mask=src_key_padding_mask_for_layers)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 539, in forward
+    x = self.norm2(x + self._ff_block(x))
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 554, in _ff_block
+    x = self.linear2(self.dropout(self.activation(self.linear1(x))))
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

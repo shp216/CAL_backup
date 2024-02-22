@@ -1,0 +1,62 @@
+
+  0%|                                                                                                                                                                  | 0/2997 [00:00<?, ?it/s]
+
+  0%|                                                                                                                                                        | 1/2997 [00:04<4:02:32,  4.86s/it]
+
+  0%|                                                                                                                                                        | 2/2997 [00:08<3:40:05,  4.41s/it]
+
+  0%|▏                                                                                                                                                       | 3/2997 [00:12<3:22:28,  4.06s/it]
+
+  0%|▏                                                                                                                                                       | 4/2997 [00:16<3:16:41,  3.94s/it]
+
+  0%|▎                                                                                                                                                       | 5/2997 [00:20<3:19:29,  4.00s/it]
+
+  0%|▎                                                                                                                                                       | 6/2997 [00:24<3:15:24,  3.92s/it]
+
+  0%|▎                                                                                                                                                       | 7/2997 [00:28<3:17:39,  3.97s/it]
+
+  0%|▍                                                                                                                                                       | 8/2997 [00:32<3:16:21,  3.94s/it]
+
+  0%|▍                                                                                                                                                       | 9/2997 [00:36<3:17:08,  3.96s/it]
+
+  0%|▌                                                                                                                                                      | 10/2997 [00:39<3:14:23,  3.90s/it]
+
+  0%|▌                                                                                                                                                      | 11/2997 [00:43<3:13:34,  3.89s/it]
+
+  0%|▌                                                                                                                                                      | 12/2997 [00:47<3:16:11,  3.94s/it]
+
+  0%|▋                                                                                                                                                      | 13/2997 [00:51<3:16:33,  3.95s/it]
+
+  0%|▋                                                                                                                                                      | 14/2997 [00:56<3:20:49,  4.04s/it]
+Traceback (most recent call last):
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py", line 277, in <module>
+    app.run(main)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py", line 167, in main
+    pred_geometry = sample_from_model(batch, model, config.device, noise_scheduler)*batch["padding_mask"][:, :, :4]
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py", line 58, in sample_from_model
+    geometry_pred = model(batch, noisy_batch, timesteps=t)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/models/CAL.py", line 108, in forward
+    output = self.seqTransEncoder(xseq)[1:] #time step embedding 제외
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 280, in forward
+    output = mod(output, src_mask=mask, src_key_padding_mask=src_key_padding_mask_for_layers)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 538, in forward
+    x = self.norm1(x + self._sa_block(x, src_mask, src_key_padding_mask))
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 546, in _sa_block
+    x = self.self_attn(x, x, x,
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/activation.py", line 1167, in forward
+    attn_output, attn_output_weights = F.multi_head_attention_forward(
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/functional.py", line 5156, in multi_head_attention_forward
+    q_scaled = q / math.sqrt(E)
+KeyboardInterrupt

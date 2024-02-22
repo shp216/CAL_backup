@@ -1,0 +1,215 @@
+2024-02-22 00:21:49,399 INFO    MainThread:2771000 [internal.py:wandb_internal():86] W&B internal server running at pid: 2771000, started at: 2024-02-22 00:21:49.399266
+2024-02-22 00:21:49,400 INFO    WriterThread:2771000 [datastore.py:open_for_write():87] open: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/run-zk28oqxm.wandb
+2024-02-22 00:21:49,401 DEBUG   SenderThread:2771000 [sender.py:send():382] send: header
+2024-02-22 00:21:49,401 DEBUG   SenderThread:2771000 [sender.py:send():382] send: run
+2024-02-22 00:21:50,465 INFO    SenderThread:2771000 [dir_watcher.py:__init__():211] watching files in: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files
+2024-02-22 00:21:50,466 INFO    SenderThread:2771000 [sender.py:_start_run_threads():1136] run started: zk28oqxm with start time 1708528909.033697
+2024-02-22 00:21:50,473 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: check_version
+2024-02-22 00:21:50,473 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: check_version
+2024-02-22 00:21:50,561 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: run_start
+2024-02-22 00:21:50,563 DEBUG   HandlerThread:2771000 [system_info.py:__init__():27] System info init
+2024-02-22 00:21:50,563 DEBUG   HandlerThread:2771000 [system_info.py:__init__():42] System info init done
+2024-02-22 00:21:50,563 INFO    HandlerThread:2771000 [system_monitor.py:start():194] Starting system monitor
+2024-02-22 00:21:50,563 INFO    SystemMonitor:2771000 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-22 00:21:50,564 INFO    HandlerThread:2771000 [system_monitor.py:probe():214] Collecting system info
+2024-02-22 00:21:50,564 INFO    SystemMonitor:2771000 [interfaces.py:start():190] Started cpu monitoring
+2024-02-22 00:21:50,565 INFO    SystemMonitor:2771000 [interfaces.py:start():190] Started disk monitoring
+2024-02-22 00:21:50,565 INFO    SystemMonitor:2771000 [interfaces.py:start():190] Started gpu monitoring
+2024-02-22 00:21:50,566 INFO    SystemMonitor:2771000 [interfaces.py:start():190] Started memory monitoring
+2024-02-22 00:21:50,566 INFO    SystemMonitor:2771000 [interfaces.py:start():190] Started network monitoring
+2024-02-22 00:21:50,591 DEBUG   HandlerThread:2771000 [system_info.py:probe():151] Probing system
+2024-02-22 00:21:50,594 DEBUG   HandlerThread:2771000 [system_info.py:_probe_git():136] Probing git
+2024-02-22 00:21:50,600 DEBUG   HandlerThread:2771000 [system_info.py:_probe_git():144] Probing git done
+2024-02-22 00:21:50,601 DEBUG   HandlerThread:2771000 [system_info.py:probe():199] Probing system done
+2024-02-22 00:21:50,601 DEBUG   HandlerThread:2771000 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-91-generic-x86_64-with-glibc2.31', 'python': '3.9.18', 'heartbeatAt': '2024-02-21T15:21:50.591529', 'startedAt': '2024-02-21T15:21:48.973021', 'docker': None, 'cuda': None, 'args': ('--config', 'configs/remote/CAL_canva_config.py', '--workdir', 'test'), 'state': 'running', 'program': '/home/mineslab-ubuntu/KDH_CAL2/dlt/main.py', 'codePathLocal': 'main.py', 'codePath': 'dlt/main.py', 'git': {'remote': 'https://github.com/DH1929ds/KDH_CAL.git', 'commit': 'e05d2cb49e5e04ec28fee35fef16dee7fd1fcd6c'}, 'email': 'qkrtpghks1214@gmail.com', 'root': '/home/mineslab-ubuntu/KDH_CAL2', 'host': 'mineslabubuntu-OMEN-by-HP-Obelisk-Desktop-875-1xxx', 'username': 'mineslab-ubuntu', 'executable': '/home/mineslab-ubuntu/anaconda3/envs/DLT/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3519.31525, 'min': 800.0, 'max': 5000.0}, 'cpu_freq_per_core': [{'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3329.977, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}], 'disk': {'/': {'total': 442.83177185058594, 'used': 357.276668548584}}, 'gpu': 'NVIDIA GeForce RTX 3070 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3070 Ti', 'memory_total': 8361213952}], 'memory': {'total': 125.6680908203125}}
+2024-02-22 00:21:50,601 INFO    HandlerThread:2771000 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-22 00:21:50,601 INFO    HandlerThread:2771000 [system_monitor.py:probe():227] Publishing system info
+2024-02-22 00:21:50,601 DEBUG   HandlerThread:2771000 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-22 00:21:51,466 INFO    Thread-7  :2771000 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/conda-environment.yaml
+2024-02-22 00:21:53,132 DEBUG   HandlerThread:2771000 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-22 00:21:53,133 INFO    HandlerThread:2771000 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-22 00:21:53,134 DEBUG   SenderThread:2771000 [sender.py:send():382] send: files
+2024-02-22 00:21:53,134 INFO    SenderThread:2771000 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-22 00:21:53,138 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-22 00:21:53,138 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: python_packages
+2024-02-22 00:21:53,138 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-22 00:21:53,139 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: stop_status
+2024-02-22 00:21:53,140 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-22 00:21:53,386 DEBUG   SenderThread:2771000 [sender.py:send():382] send: telemetry
+2024-02-22 00:21:53,466 INFO    Thread-7  :2771000 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/conda-environment.yaml
+2024-02-22 00:21:53,466 INFO    Thread-7  :2771000 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/wandb-metadata.json
+2024-02-22 00:21:53,466 INFO    Thread-7  :2771000 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/requirements.txt
+2024-02-22 00:21:53,466 INFO    Thread-7  :2771000 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/output.log
+2024-02-22 00:21:54,011 INFO    wandb-upload_0:2771000 [upload_job.py:push():131] Uploaded file /tmp/tmpx2itw60swandb/869iuq6l-wandb-metadata.json
+2024-02-22 00:21:54,431 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: status_report
+2024-02-22 00:21:55,466 INFO    Thread-7  :2771000 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/output.log
+2024-02-22 00:21:57,466 INFO    Thread-7  :2771000 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/output.log
+2024-02-22 00:21:59,728 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: status_report
+2024-02-22 00:22:04,729 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: status_report
+2024-02-22 00:22:08,138 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-22 00:22:08,139 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: stop_status
+2024-02-22 00:22:08,140 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-22 00:22:10,633 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: status_report
+2024-02-22 00:22:14,743 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-22 00:22:14,743 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-22 00:22:14,743 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-22 00:22:14,743 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-22 00:22:14,743 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-22 00:22:14,743 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-22 00:22:15,470 INFO    Thread-7  :2771000 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/output.log
+2024-02-22 00:22:15,650 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: status_report
+2024-02-22 00:22:17,470 INFO    Thread-7  :2771000 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/output.log
+2024-02-22 00:22:17,481 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-22 00:22:17,482 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-22 00:22:17,482 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-22 00:22:17,482 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-22 00:22:17,482 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-22 00:22:17,483 DEBUG   SenderThread:2771000 [sender.py:send():382] send: history
+2024-02-22 00:22:17,483 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: summary_record
+2024-02-22 00:22:17,483 INFO    SenderThread:2771000 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-22 00:22:18,476 INFO    Thread-7  :2771000 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/wandb-summary.json
+2024-02-22 00:22:19,443 WARNING MainThread:2771000 [internal.py:wandb_internal():156] Internal process interrupt: 1
+2024-02-22 00:22:19,477 INFO    Thread-7  :2771000 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/output.log
+2024-02-22 00:22:19,499 DEBUG   SenderThread:2771000 [sender.py:send():382] send: exit
+2024-02-22 00:22:19,499 INFO    SenderThread:2771000 [sender.py:send_exit():589] handling exit code: 255
+2024-02-22 00:22:19,500 INFO    SenderThread:2771000 [sender.py:send_exit():591] handling runtime: 28
+2024-02-22 00:22:19,500 INFO    SenderThread:2771000 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-22 00:22:19,500 INFO    SenderThread:2771000 [sender.py:send_exit():597] send defer
+2024-02-22 00:22:19,500 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 00:22:19,500 INFO    HandlerThread:2771000 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-22 00:22:19,500 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: defer
+2024-02-22 00:22:19,500 INFO    SenderThread:2771000 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-22 00:22:19,500 INFO    SenderThread:2771000 [sender.py:transition_state():617] send defer: 1
+2024-02-22 00:22:19,500 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 00:22:19,500 INFO    HandlerThread:2771000 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-22 00:22:19,500 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: defer
+2024-02-22 00:22:19,500 INFO    SenderThread:2771000 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-22 00:22:19,501 INFO    SenderThread:2771000 [sender.py:transition_state():617] send defer: 2
+2024-02-22 00:22:19,501 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 00:22:19,501 INFO    HandlerThread:2771000 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-22 00:22:19,501 INFO    HandlerThread:2771000 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-22 00:22:19,501 DEBUG   SystemMonitor:2771000 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-22 00:22:19,501 DEBUG   SystemMonitor:2771000 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-22 00:22:19,501 DEBUG   SystemMonitor:2771000 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-22 00:22:19,501 INFO    HandlerThread:2771000 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-22 00:22:19,502 INFO    HandlerThread:2771000 [interfaces.py:finish():202] Joined disk monitor
+2024-02-22 00:22:19,547 INFO    HandlerThread:2771000 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-22 00:22:19,547 INFO    HandlerThread:2771000 [interfaces.py:finish():202] Joined memory monitor
+2024-02-22 00:22:19,548 INFO    HandlerThread:2771000 [interfaces.py:finish():202] Joined network monitor
+2024-02-22 00:22:19,548 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: defer
+2024-02-22 00:22:19,548 INFO    SenderThread:2771000 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-22 00:22:19,548 INFO    SenderThread:2771000 [sender.py:transition_state():617] send defer: 3
+2024-02-22 00:22:19,548 DEBUG   SenderThread:2771000 [sender.py:send():382] send: stats
+2024-02-22 00:22:19,548 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 00:22:19,548 INFO    HandlerThread:2771000 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-22 00:22:19,549 DEBUG   SenderThread:2771000 [sender.py:send():382] send: history
+2024-02-22 00:22:19,549 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: summary_record
+2024-02-22 00:22:19,549 INFO    SenderThread:2771000 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-22 00:22:19,549 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: defer
+2024-02-22 00:22:19,549 INFO    SenderThread:2771000 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-22 00:22:19,549 INFO    SenderThread:2771000 [sender.py:transition_state():617] send defer: 4
+2024-02-22 00:22:19,549 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 00:22:19,549 INFO    HandlerThread:2771000 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-22 00:22:19,550 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: defer
+2024-02-22 00:22:19,550 INFO    SenderThread:2771000 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-22 00:22:19,550 INFO    SenderThread:2771000 [sender.py:transition_state():617] send defer: 5
+2024-02-22 00:22:19,550 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 00:22:19,550 INFO    HandlerThread:2771000 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-22 00:22:19,550 DEBUG   SenderThread:2771000 [sender.py:send():382] send: summary
+2024-02-22 00:22:19,550 INFO    SenderThread:2771000 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-22 00:22:19,550 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: defer
+2024-02-22 00:22:19,550 INFO    SenderThread:2771000 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-22 00:22:19,550 INFO    SenderThread:2771000 [sender.py:transition_state():617] send defer: 6
+2024-02-22 00:22:19,551 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 00:22:19,551 INFO    HandlerThread:2771000 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-22 00:22:19,551 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: defer
+2024-02-22 00:22:19,551 INFO    SenderThread:2771000 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-22 00:22:19,553 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: status_report
+2024-02-22 00:22:19,796 INFO    SenderThread:2771000 [sender.py:transition_state():617] send defer: 7
+2024-02-22 00:22:19,797 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 00:22:19,797 INFO    HandlerThread:2771000 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-22 00:22:19,798 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: defer
+2024-02-22 00:22:19,798 INFO    SenderThread:2771000 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-22 00:22:20,477 INFO    Thread-7  :2771000 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/config.yaml
+2024-02-22 00:22:20,477 INFO    Thread-7  :2771000 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/wandb-summary.json
+2024-02-22 00:22:20,500 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-22 00:22:21,440 INFO    SenderThread:2771000 [sender.py:transition_state():617] send defer: 8
+2024-02-22 00:22:21,440 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: poll_exit
+2024-02-22 00:22:21,441 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 00:22:21,441 INFO    HandlerThread:2771000 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-22 00:22:21,442 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: defer
+2024-02-22 00:22:21,442 INFO    SenderThread:2771000 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-22 00:22:21,443 INFO    SenderThread:2771000 [job_builder.py:build():296] Attempting to build job artifact
+2024-02-22 00:22:21,443 INFO    SenderThread:2771000 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-02-22 00:22:21,467 INFO    SenderThread:2771000 [job_builder.py:build():402] adding wandb-job metadata file
+2024-02-22 00:22:21,477 INFO    Thread-7  :2771000 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/output.log
+2024-02-22 00:22:21,481 INFO    SenderThread:2771000 [sender.py:transition_state():617] send defer: 9
+2024-02-22 00:22:21,482 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 00:22:21,482 INFO    HandlerThread:2771000 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-22 00:22:21,482 DEBUG   SenderThread:2771000 [sender.py:send():382] send: artifact
+2024-02-22 00:22:21,500 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-22 00:22:22,621 INFO    SenderThread:2771000 [sender.py:send_artifact():1494] sent artifact job-https___github.com_DH1929ds_KDH_CAL.git_dlt_main.py - {'id': 'QXJ0aWZhY3Q6NzI3NTI2NjM4', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MDcyNjgxMQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzI3NTI2NjM4', 'versionIndex': 2}}}
+2024-02-22 00:22:22,621 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: defer
+2024-02-22 00:22:22,622 INFO    SenderThread:2771000 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-22 00:22:22,622 INFO    SenderThread:2771000 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-22 00:22:23,480 INFO    SenderThread:2771000 [dir_watcher.py:finish():388] scan: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files
+2024-02-22 00:22:23,480 INFO    SenderThread:2771000 [dir_watcher.py:finish():402] scan save: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/requirements.txt requirements.txt
+2024-02-22 00:22:23,481 INFO    SenderThread:2771000 [dir_watcher.py:finish():402] scan save: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/wandb-summary.json wandb-summary.json
+2024-02-22 00:22:23,481 INFO    SenderThread:2771000 [dir_watcher.py:finish():402] scan save: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/output.log output.log
+2024-02-22 00:22:23,482 INFO    SenderThread:2771000 [dir_watcher.py:finish():402] scan save: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/config.yaml config.yaml
+2024-02-22 00:22:23,483 INFO    SenderThread:2771000 [dir_watcher.py:finish():402] scan save: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/conda-environment.yaml conda-environment.yaml
+2024-02-22 00:22:23,491 INFO    SenderThread:2771000 [dir_watcher.py:finish():402] scan save: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/wandb-metadata.json wandb-metadata.json
+2024-02-22 00:22:23,492 INFO    SenderThread:2771000 [sender.py:transition_state():617] send defer: 10
+2024-02-22 00:22:23,492 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: poll_exit
+2024-02-22 00:22:23,494 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 00:22:23,494 INFO    HandlerThread:2771000 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-22 00:22:23,508 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: defer
+2024-02-22 00:22:23,519 INFO    SenderThread:2771000 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-22 00:22:23,520 INFO    SenderThread:2771000 [file_pusher.py:finish():175] shutting down file pusher
+2024-02-22 00:22:23,951 INFO    wandb-upload_0:2771000 [upload_job.py:push():131] Uploaded file /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/requirements.txt
+2024-02-22 00:22:24,036 INFO    wandb-upload_1:2771000 [upload_job.py:push():131] Uploaded file /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/wandb-summary.json
+2024-02-22 00:22:24,201 INFO    wandb-upload_4:2771000 [upload_job.py:push():131] Uploaded file /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/conda-environment.yaml
+2024-02-22 00:22:24,203 INFO    wandb-upload_3:2771000 [upload_job.py:push():131] Uploaded file /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/config.yaml
+2024-02-22 00:22:24,213 INFO    wandb-upload_2:2771000 [upload_job.py:push():131] Uploaded file /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/files/output.log
+2024-02-22 00:22:24,414 INFO    Thread-6  :2771000 [sender.py:transition_state():617] send defer: 11
+2024-02-22 00:22:24,414 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 00:22:24,414 INFO    HandlerThread:2771000 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-22 00:22:24,415 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: defer
+2024-02-22 00:22:24,415 INFO    SenderThread:2771000 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-22 00:22:24,415 INFO    SenderThread:2771000 [file_pusher.py:join():181] waiting for file pusher
+2024-02-22 00:22:24,415 INFO    SenderThread:2771000 [sender.py:transition_state():617] send defer: 12
+2024-02-22 00:22:24,415 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 00:22:24,415 INFO    HandlerThread:2771000 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-22 00:22:24,415 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: defer
+2024-02-22 00:22:24,415 INFO    SenderThread:2771000 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-22 00:22:24,416 INFO    SenderThread:2771000 [file_stream.py:finish():595] file stream finish called
+2024-02-22 00:22:24,502 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-22 00:22:24,614 INFO    SenderThread:2771000 [file_stream.py:finish():599] file stream finish is done
+2024-02-22 00:22:24,614 INFO    SenderThread:2771000 [sender.py:transition_state():617] send defer: 13
+2024-02-22 00:22:24,614 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: poll_exit
+2024-02-22 00:22:24,615 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 00:22:24,615 INFO    HandlerThread:2771000 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-22 00:22:24,615 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: defer
+2024-02-22 00:22:24,615 INFO    SenderThread:2771000 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-22 00:22:24,615 INFO    SenderThread:2771000 [sender.py:transition_state():617] send defer: 14
+2024-02-22 00:22:24,615 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 00:22:24,616 INFO    HandlerThread:2771000 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-22 00:22:24,616 DEBUG   SenderThread:2771000 [sender.py:send():382] send: final
+2024-02-22 00:22:24,616 DEBUG   SenderThread:2771000 [sender.py:send():382] send: footer
+2024-02-22 00:22:24,616 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: defer
+2024-02-22 00:22:24,616 INFO    SenderThread:2771000 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-22 00:22:24,617 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-22 00:22:24,617 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: poll_exit
+2024-02-22 00:22:24,617 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-22 00:22:24,618 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: server_info
+2024-02-22 00:22:24,618 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-22 00:22:24,619 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-22 00:22:24,619 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: job_info
+2024-02-22 00:22:24,619 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: server_info
+2024-02-22 00:22:24,825 DEBUG   SenderThread:2771000 [sender.py:send_request():409] send_request: job_info
+2024-02-22 00:22:24,828 DEBUG   HandlerThread:2771000 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-22 00:22:24,828 INFO    HandlerThread:2771000 [handler.py:finish():869] shutting down handler
+2024-02-22 00:22:25,622 INFO    WriterThread:2771000 [datastore.py:close():296] close: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240222_002148-zk28oqxm/run-zk28oqxm.wandb
+2024-02-22 00:22:25,825 INFO    SenderThread:2771000 [sender.py:finish():1572] shutting down sender
+2024-02-22 00:22:25,826 INFO    SenderThread:2771000 [file_pusher.py:finish():175] shutting down file pusher
+2024-02-22 00:22:25,826 INFO    SenderThread:2771000 [file_pusher.py:join():181] waiting for file pusher

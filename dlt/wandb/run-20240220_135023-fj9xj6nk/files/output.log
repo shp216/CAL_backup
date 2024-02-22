@@ -1,0 +1,42 @@
+
+Epoch 0: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:03<00:00, 29.86it/s, loss=1.54, lr=9.4e-6, step=94]
+Epoch 1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:02<00:00, 36.02it/s, loss=1.37, lr=1.88e-5, step=188]
+
+Epoch 2: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:02<00:00, 35.54it/s, loss=1.31, lr=2.82e-5, step=282]
+Epoch 3: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:02<00:00, 35.86it/s, loss=0.978, lr=3.76e-5, step=376]
+Epoch 4: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:02<00:00, 35.04it/s, loss=1.07, lr=4.7e-5, step=470]
+
+Epoch 5: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:02<00:00, 36.74it/s, loss=0.88, lr=5.64e-5, step=564]
+Epoch 6: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:02<00:00, 36.11it/s, loss=0.967, lr=6.58e-5, step=658]
+Epoch 7: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:02<00:00, 36.46it/s, loss=0.978, lr=7.52e-5, step=752]
+Epoch 8: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:02<00:00, 36.45it/s, loss=0.937, lr=8.46e-5, step=846]
+
+Epoch 9: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:02<00:00, 35.99it/s, loss=0.957, lr=9.4e-5, step=940]
+Epoch 10:  89%|████████████████████████████████████████████████████████████████████████████████████████████████████▉            | 84/94 [00:02<00:00, 42.31it/s, loss=1.1, lr=0.0001, step=1024]Traceback (most recent call last):
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/main.py", line 119, in <module>
+    app.run(main)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/main.py", line 94, in main
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/trainers/cal_trainer.py", line 108, in train
+    self.train_epoch_CAL(epoch)
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/trainers/cal_trainer.py", line 135, in train_epoch_CAL
+    for step, (batch, ids) in enumerate(self.train_dataloader):
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/accelerate/data_loader.py", line 460, in __iter__
+    current_batch = send_to_device(current_batch, self.device)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/accelerate/utils/operations.py", line 152, in send_to_device
+    return honor_type(
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/accelerate/utils/operations.py", line 84, in honor_type
+    return type(obj)(generator)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/accelerate/utils/operations.py", line 153, in <genexpr>
+    tensor, (send_to_device(t, device, non_blocking=non_blocking, skip_keys=skip_keys) for t in tensor)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/accelerate/utils/operations.py", line 161, in send_to_device
+    {
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/accelerate/utils/operations.py", line 162, in <dictcomp>
+    k: t if k in skip_keys else send_to_device(t, device, non_blocking=non_blocking, skip_keys=skip_keys)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/accelerate/utils/operations.py", line 171, in send_to_device
+    return tensor.to(device, non_blocking=non_blocking)
+KeyboardInterrupt

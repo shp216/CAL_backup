@@ -1,0 +1,40 @@
+
+  0%|                                                                                                                                                                  | 0/2997 [00:00<?, ?it/s]
+
+  0%|                                                                                                                                                        | 1/2997 [00:04<4:08:08,  4.97s/it]
+
+  0%|                                                                                                                                                        | 2/2997 [00:08<3:39:00,  4.39s/it]
+
+  0%|▏                                                                                                                                                       | 3/2997 [00:12<3:23:38,  4.08s/it]
+
+  0%|▏                                                                                                                                                       | 4/2997 [00:16<3:16:02,  3.93s/it]
+
+  0%|▎                                                                                                                                                       | 5/2997 [00:20<3:13:36,  3.88s/it]
+
+  0%|▎                                                                                                                                                       | 6/2997 [00:23<3:12:14,  3.86s/it]
+
+  0%|▎                                                                                                                                                       | 7/2997 [00:27<3:13:17,  3.88s/it]
+  0%|▎                                                                                                                                                       | 7/2997 [00:31<3:45:56,  4.53s/it]
+Traceback (most recent call last):
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/PIL/ImageFile.py", line 515, in _save
+    fh = fp.fileno()
+AttributeError: '_idat' object has no attribute 'fileno'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py", line 277, in <module>
+    app.run(main)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py", line 217, in main
+    collage.save(save_file_name)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/PIL/Image.py", line 2413, in save
+    save_handler(self, fp, filename)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/PIL/PngImagePlugin.py", line 1398, in _save
+    ImageFile._save(im, _idat(fp, chunk), [("zip", (0, 0) + im.size, 0, rawmode)])
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/PIL/ImageFile.py", line 519, in _save
+    _encode_tile(im, fp, tile, bufsize, None, exc)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/PIL/ImageFile.py", line 538, in _encode_tile
+    errcode, data = encoder.encode(bufsize)[1:]
+KeyboardInterrupt

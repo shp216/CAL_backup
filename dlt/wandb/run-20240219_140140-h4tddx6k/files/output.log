@@ -1,0 +1,934 @@
+
+
+
+
+
+Epoch 0: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:10<00:00,  9.14it/s, loss=1.29, lr=9.4e-6, step=94]
+
+
+
+
+Epoch 1: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.50it/s, loss=0.652, lr=1.88e-5, step=188]
+
+
+
+Epoch 2: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.58it/s, loss=0.686, lr=2.82e-5, step=282]
+
+
+
+
+Epoch 3: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.75it/s, loss=0.598, lr=3.76e-5, step=376]
+
+
+
+
+Epoch 4: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:10<00:00,  9.39it/s, loss=0.568, lr=4.7e-5, step=470]
+
+
+
+
+Epoch 5: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.71it/s, loss=0.442, lr=5.64e-5, step=564]
+
+
+
+
+Epoch 6: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.59it/s, loss=0.638, lr=6.58e-5, step=658]
+
+
+
+
+Epoch 7: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.45it/s, loss=0.474, lr=7.52e-5, step=752]
+
+
+
+
+Epoch 8: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.70it/s, loss=0.467, lr=8.46e-5, step=846]
+
+
+
+Epoch 9: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.93it/s, loss=0.523, lr=9.4e-5, step=940]
+I0219 14:03:22.430636 139966223655296 logging.py:61] Saving current state to logs/test/checkpoints/checkpoint-9/
+W0219 14:03:22.431839 139966223655296 logging.py:61] Removed shared tensor {'embed_timestep.seq_pos_enc.pe'} while saving. This should be OK, but check by verifying that you don't receive any warning while reloading
+I0219 14:03:22.512995 139966223655296 logging.py:61] Model weights saved in logs/test/checkpoints/checkpoint-9/model.safetensors
+I0219 14:03:22.625568 139966223655296 logging.py:61] Optimizer state saved in logs/test/checkpoints/checkpoint-9/optimizer.bin
+I0219 14:03:22.625923 139966223655296 logging.py:61] Scheduler state saved in logs/test/checkpoints/checkpoint-9/scheduler.bin
+I0219 14:03:22.626036 139966223655296 logging.py:61] Sampler state for dataloader 0 saved in logs/test/checkpoints/checkpoint-9/sampler.bin
+I0219 14:03:22.626126 139966223655296 logging.py:61] Sampler state for dataloader 1 saved in logs/test/checkpoints/checkpoint-9/sampler_1.bin
+I0219 14:03:22.627711 139966223655296 logging.py:61] Random states saved in logs/test/checkpoints/checkpoint-9/random_states_0.pkl
+############################################
+<class 'odict_items'>
+seq_pos_enc.pe torch.Size([5000, 1, 512])
+seqTransEncoder.layers.0.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.0.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.0.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.0.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.0.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.0.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.0.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.0.linear2.bias torch.Size([512])
+seqTransEncoder.layers.0.norm1.weight torch.Size([512])
+seqTransEncoder.layers.0.norm1.bias torch.Size([512])
+seqTransEncoder.layers.0.norm2.weight torch.Size([512])
+seqTransEncoder.layers.0.norm2.bias torch.Size([512])
+seqTransEncoder.layers.1.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.1.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.1.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.1.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.1.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.1.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.1.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.1.linear2.bias torch.Size([512])
+seqTransEncoder.layers.1.norm1.weight torch.Size([512])
+seqTransEncoder.layers.1.norm1.bias torch.Size([512])
+seqTransEncoder.layers.1.norm2.weight torch.Size([512])
+seqTransEncoder.layers.1.norm2.bias torch.Size([512])
+seqTransEncoder.layers.2.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.2.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.2.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.2.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.2.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.2.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.2.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.2.linear2.bias torch.Size([512])
+seqTransEncoder.layers.2.norm1.weight torch.Size([512])
+seqTransEncoder.layers.2.norm1.bias torch.Size([512])
+seqTransEncoder.layers.2.norm2.weight torch.Size([512])
+seqTransEncoder.layers.2.norm2.bias torch.Size([512])
+seqTransEncoder.layers.3.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.3.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.3.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.3.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.3.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.3.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.3.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.3.linear2.bias torch.Size([512])
+seqTransEncoder.layers.3.norm1.weight torch.Size([512])
+seqTransEncoder.layers.3.norm1.bias torch.Size([512])
+seqTransEncoder.layers.3.norm2.weight torch.Size([512])
+seqTransEncoder.layers.3.norm2.bias torch.Size([512])
+seqTransEncoder.layers.4.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.4.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.4.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.4.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.4.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.4.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.4.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.4.linear2.bias torch.Size([512])
+seqTransEncoder.layers.4.norm1.weight torch.Size([512])
+seqTransEncoder.layers.4.norm1.bias torch.Size([512])
+seqTransEncoder.layers.4.norm2.weight torch.Size([512])
+seqTransEncoder.layers.4.norm2.bias torch.Size([512])
+seqTransEncoder.layers.5.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.5.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.5.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.5.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.5.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.5.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.5.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.5.linear2.bias torch.Size([512])
+seqTransEncoder.layers.5.norm1.weight torch.Size([512])
+seqTransEncoder.layers.5.norm1.bias torch.Size([512])
+seqTransEncoder.layers.5.norm2.weight torch.Size([512])
+seqTransEncoder.layers.5.norm2.bias torch.Size([512])
+seqTransEncoder.layers.6.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.6.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.6.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.6.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.6.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.6.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.6.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.6.linear2.bias torch.Size([512])
+seqTransEncoder.layers.6.norm1.weight torch.Size([512])
+seqTransEncoder.layers.6.norm1.bias torch.Size([512])
+seqTransEncoder.layers.6.norm2.weight torch.Size([512])
+seqTransEncoder.layers.6.norm2.bias torch.Size([512])
+seqTransEncoder.layers.7.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.7.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.7.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.7.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.7.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.7.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.7.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.7.linear2.bias torch.Size([512])
+seqTransEncoder.layers.7.norm1.weight torch.Size([512])
+seqTransEncoder.layers.7.norm1.bias torch.Size([512])
+seqTransEncoder.layers.7.norm2.weight torch.Size([512])
+seqTransEncoder.layers.7.norm2.bias torch.Size([512])
+embed_timestep.seq_pos_enc.pe torch.Size([5000, 1, 512])
+embed_timestep.time_embed.0.weight torch.Size([512, 512])
+embed_timestep.time_embed.0.bias torch.Size([512])
+embed_timestep.time_embed.2.weight torch.Size([512, 512])
+embed_timestep.time_embed.2.bias torch.Size([512])
+output_process.0.weight torch.Size([4, 512])
+output_process.0.bias torch.Size([4])
+image_emb.0.weight torch.Size([256, 512])
+image_emb.0.bias torch.Size([256])
+xy_emb.0.weight torch.Size([112, 2])
+xy_emb.0.bias torch.Size([112])
+wh_emb.0.weight torch.Size([112, 2])
+wh_emb.0.bias torch.Size([112])
+r_emb.0.weight torch.Size([64, 1])
+r_emb.0.bias torch.Size([64])
+z_emb.0.weight torch.Size([64, 1])
+z_emb.0.bias torch.Size([64])
+ratio_emb.0.weight torch.Size([32, 1])
+ratio_emb.0.bias torch.Size([32])
+tokens_emb.0.weight torch.Size([512, 640])
+tokens_emb.0.bias torch.Size([512])
+############################################
+I0219 14:03:22.708403 139966223655296 cal_trainer.py:262] Saving checkpoint to logs/test/checkpoints/checkpoint-9/
+
+
+
+
+Epoch 10: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.42it/s, loss=0.477, lr=0.0001, step=1034]
+
+
+
+
+Epoch 11: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.67it/s, loss=0.342, lr=0.0001, step=1128]
+
+
+
+
+Epoch 12: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.42it/s, loss=0.393, lr=0.0001, step=1222]
+
+
+
+Epoch 13: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.40it/s, loss=0.406, lr=0.0001, step=1316]
+
+
+
+
+Epoch 14: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:10<00:00,  9.32it/s, loss=0.799, lr=0.0001, step=1410]
+
+
+
+
+Epoch 15: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.62it/s, loss=0.44, lr=0.0001, step=1504]
+
+
+
+
+Epoch 16: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.54it/s, loss=0.402, lr=0.0001, step=1598]
+
+
+
+
+Epoch 17: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.77it/s, loss=0.408, lr=0.0001, step=1692]
+
+
+
+
+Epoch 18: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:10<00:00,  9.40it/s, loss=0.424, lr=0.0001, step=1786]
+
+
+
+
+Epoch 19:  74%|██████████████████████████████████████████████████████████████████████████████████▋                            | 70/94 [00:07<00:02,  9.80it/s, loss=0.333, lr=0.0001, step=1856]
+############################################
+<class 'odict_items'>
+seq_pos_enc.pe torch.Size([5000, 1, 512])
+seqTransEncoder.layers.0.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.0.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.0.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.0.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.0.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.0.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.0.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.0.linear2.bias torch.Size([512])
+seqTransEncoder.layers.0.norm1.weight torch.Size([512])
+seqTransEncoder.layers.0.norm1.bias torch.Size([512])
+seqTransEncoder.layers.0.norm2.weight torch.Size([512])
+seqTransEncoder.layers.0.norm2.bias torch.Size([512])
+seqTransEncoder.layers.1.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.1.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.1.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.1.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.1.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.1.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.1.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.1.linear2.bias torch.Size([512])
+seqTransEncoder.layers.1.norm1.weight torch.Size([512])
+seqTransEncoder.layers.1.norm1.bias torch.Size([512])
+seqTransEncoder.layers.1.norm2.weight torch.Size([512])
+seqTransEncoder.layers.1.norm2.bias torch.Size([512])
+seqTransEncoder.layers.2.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.2.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.2.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.2.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.2.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.2.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.2.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.2.linear2.bias torch.Size([512])
+seqTransEncoder.layers.2.norm1.weight torch.Size([512])
+seqTransEncoder.layers.2.norm1.bias torch.Size([512])
+seqTransEncoder.layers.2.norm2.weight torch.Size([512])
+seqTransEncoder.layers.2.norm2.bias torch.Size([512])
+seqTransEncoder.layers.3.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.3.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.3.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.3.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.3.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.3.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.3.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.3.linear2.bias torch.Size([512])
+seqTransEncoder.layers.3.norm1.weight torch.Size([512])
+seqTransEncoder.layers.3.norm1.bias torch.Size([512])
+seqTransEncoder.layers.3.norm2.weight torch.Size([512])
+seqTransEncoder.layers.3.norm2.bias torch.Size([512])
+seqTransEncoder.layers.4.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.4.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.4.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.4.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.4.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.4.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.4.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.4.linear2.bias torch.Size([512])
+seqTransEncoder.layers.4.norm1.weight torch.Size([512])
+seqTransEncoder.layers.4.norm1.bias torch.Size([512])
+seqTransEncoder.layers.4.norm2.weight torch.Size([512])
+seqTransEncoder.layers.4.norm2.bias torch.Size([512])
+seqTransEncoder.layers.5.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.5.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.5.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.5.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.5.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.5.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.5.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.5.linear2.bias torch.Size([512])
+seqTransEncoder.layers.5.norm1.weight torch.Size([512])
+seqTransEncoder.layers.5.norm1.bias torch.Size([512])
+seqTransEncoder.layers.5.norm2.weight torch.Size([512])
+seqTransEncoder.layers.5.norm2.bias torch.Size([512])
+seqTransEncoder.layers.6.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.6.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.6.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.6.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.6.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.6.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.6.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.6.linear2.bias torch.Size([512])
+seqTransEncoder.layers.6.norm1.weight torch.Size([512])
+seqTransEncoder.layers.6.norm1.bias torch.Size([512])
+seqTransEncoder.layers.6.norm2.weight torch.Size([512])
+seqTransEncoder.layers.6.norm2.bias torch.Size([512])
+seqTransEncoder.layers.7.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.7.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.7.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.7.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.7.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.7.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.7.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.7.linear2.bias torch.Size([512])
+seqTransEncoder.layers.7.norm1.weight torch.Size([512])
+seqTransEncoder.layers.7.norm1.bias torch.Size([512])
+seqTransEncoder.layers.7.norm2.weight torch.Size([512])
+seqTransEncoder.layers.7.norm2.bias torch.Size([512])
+embed_timestep.seq_pos_enc.pe torch.Size([5000, 1, 512])
+embed_timestep.time_embed.0.weight torch.Size([512, 512])
+embed_timestep.time_embed.0.bias torch.Size([512])
+embed_timestep.time_embed.2.weight torch.Size([512, 512])
+embed_timestep.time_embed.2.bias torch.Size([512])
+output_process.0.weight torch.Size([4, 512])
+output_process.0.bias torch.Size([4])
+image_emb.0.weight torch.Size([256, 512])
+image_emb.0.bias torch.Size([256])
+xy_emb.0.weight torch.Size([112, 2])
+xy_emb.0.bias torch.Size([112])
+wh_emb.0.weight torch.Size([112, 2])
+wh_emb.0.bias torch.Size([112])
+r_emb.0.weight torch.Size([64, 1])
+r_emb.0.bias torch.Size([64])
+z_emb.0.weight torch.Size([64, 1])
+z_emb.0.bias torch.Size([64])
+ratio_emb.0.weight torch.Size([32, 1])
+ratio_emb.0.bias torch.Size([32])
+tokens_emb.0.weight torch.Size([512, 640])
+tokens_emb.0.bias torch.Size([512])
+Epoch 19: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.58it/s, loss=0.417, lr=0.0001, step=1880]
+I0219 14:05:01.618233 139966223655296 logging.py:61] Saving current state to logs/test/checkpoints/checkpoint-19/
+W0219 14:05:01.619441 139966223655296 logging.py:61] Removed shared tensor {'embed_timestep.seq_pos_enc.pe'} while saving. This should be OK, but check by verifying that you don't receive any warning while reloading
+I0219 14:05:01.698980 139966223655296 logging.py:61] Model weights saved in logs/test/checkpoints/checkpoint-19/model.safetensors
+I0219 14:05:01.815195 139966223655296 logging.py:61] Optimizer state saved in logs/test/checkpoints/checkpoint-19/optimizer.bin
+I0219 14:05:01.815572 139966223655296 logging.py:61] Scheduler state saved in logs/test/checkpoints/checkpoint-19/scheduler.bin
+I0219 14:05:01.815693 139966223655296 logging.py:61] Sampler state for dataloader 0 saved in logs/test/checkpoints/checkpoint-19/sampler.bin
+I0219 14:05:01.815788 139966223655296 logging.py:61] Sampler state for dataloader 1 saved in logs/test/checkpoints/checkpoint-19/sampler_1.bin
+I0219 14:05:01.816378 139966223655296 logging.py:61] Random states saved in logs/test/checkpoints/checkpoint-19/random_states_0.pkl
+I0219 14:05:01.896803 139966223655296 cal_trainer.py:262] Saving checkpoint to logs/test/checkpoints/checkpoint-19/
+
+
+
+
+Epoch 20: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:10<00:00,  9.36it/s, loss=0.302, lr=0.0001, step=1974]
+
+
+
+
+Epoch 21: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.87it/s, loss=0.535, lr=0.0001, step=2068]
+
+
+
+
+Epoch 22: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.92it/s, loss=0.409, lr=0.0001, step=2162]
+
+
+
+
+Epoch 23: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.68it/s, loss=0.483, lr=0.0001, step=2256]
+
+
+
+Epoch 24: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.96it/s, loss=0.456, lr=0.0001, step=2350]
+
+
+
+
+
+Epoch 25: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.70it/s, loss=0.398, lr=0.0001, step=2444]
+
+
+
+Epoch 26: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.78it/s, loss=0.456, lr=0.0001, step=2538]
+
+
+
+
+Epoch 27: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.42it/s, loss=0.502, lr=0.0001, step=2632]
+
+
+
+
+Epoch 28: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.59it/s, loss=0.391, lr=0.0001, step=2726]
+
+
+
+
+Epoch 29:  94%|████████████████████████████████████████████████████████████████████████████████████████████████████████▊       | 88/94 [00:09<00:00,  9.71it/s, loss=0.42, lr=0.0001, step=2814]
+############################################
+<class 'odict_items'>
+seq_pos_enc.pe torch.Size([5000, 1, 512])
+seqTransEncoder.layers.0.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.0.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.0.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.0.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.0.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.0.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.0.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.0.linear2.bias torch.Size([512])
+seqTransEncoder.layers.0.norm1.weight torch.Size([512])
+seqTransEncoder.layers.0.norm1.bias torch.Size([512])
+seqTransEncoder.layers.0.norm2.weight torch.Size([512])
+seqTransEncoder.layers.0.norm2.bias torch.Size([512])
+seqTransEncoder.layers.1.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.1.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.1.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.1.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.1.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.1.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.1.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.1.linear2.bias torch.Size([512])
+seqTransEncoder.layers.1.norm1.weight torch.Size([512])
+seqTransEncoder.layers.1.norm1.bias torch.Size([512])
+seqTransEncoder.layers.1.norm2.weight torch.Size([512])
+seqTransEncoder.layers.1.norm2.bias torch.Size([512])
+seqTransEncoder.layers.2.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.2.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.2.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.2.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.2.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.2.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.2.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.2.linear2.bias torch.Size([512])
+seqTransEncoder.layers.2.norm1.weight torch.Size([512])
+seqTransEncoder.layers.2.norm1.bias torch.Size([512])
+seqTransEncoder.layers.2.norm2.weight torch.Size([512])
+seqTransEncoder.layers.2.norm2.bias torch.Size([512])
+seqTransEncoder.layers.3.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.3.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.3.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.3.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.3.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.3.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.3.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.3.linear2.bias torch.Size([512])
+seqTransEncoder.layers.3.norm1.weight torch.Size([512])
+seqTransEncoder.layers.3.norm1.bias torch.Size([512])
+seqTransEncoder.layers.3.norm2.weight torch.Size([512])
+seqTransEncoder.layers.3.norm2.bias torch.Size([512])
+seqTransEncoder.layers.4.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.4.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.4.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.4.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.4.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.4.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.4.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.4.linear2.bias torch.Size([512])
+seqTransEncoder.layers.4.norm1.weight torch.Size([512])
+seqTransEncoder.layers.4.norm1.bias torch.Size([512])
+seqTransEncoder.layers.4.norm2.weight torch.Size([512])
+seqTransEncoder.layers.4.norm2.bias torch.Size([512])
+seqTransEncoder.layers.5.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.5.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.5.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.5.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.5.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.5.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.5.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.5.linear2.bias torch.Size([512])
+seqTransEncoder.layers.5.norm1.weight torch.Size([512])
+seqTransEncoder.layers.5.norm1.bias torch.Size([512])
+seqTransEncoder.layers.5.norm2.weight torch.Size([512])
+seqTransEncoder.layers.5.norm2.bias torch.Size([512])
+seqTransEncoder.layers.6.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.6.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.6.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.6.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.6.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.6.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.6.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.6.linear2.bias torch.Size([512])
+seqTransEncoder.layers.6.norm1.weight torch.Size([512])
+seqTransEncoder.layers.6.norm1.bias torch.Size([512])
+seqTransEncoder.layers.6.norm2.weight torch.Size([512])
+seqTransEncoder.layers.6.norm2.bias torch.Size([512])
+seqTransEncoder.layers.7.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.7.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.7.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.7.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.7.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.7.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.7.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.7.linear2.bias torch.Size([512])
+seqTransEncoder.layers.7.norm1.weight torch.Size([512])
+seqTransEncoder.layers.7.norm1.bias torch.Size([512])
+seqTransEncoder.layers.7.norm2.weight torch.Size([512])
+seqTransEncoder.layers.7.norm2.bias torch.Size([512])
+embed_timestep.seq_pos_enc.pe torch.Size([5000, 1, 512])
+embed_timestep.time_embed.0.weight torch.Size([512, 512])
+embed_timestep.time_embed.0.bias torch.Size([512])
+embed_timestep.time_embed.2.weight torch.Size([512, 512])
+embed_timestep.time_embed.2.bias torch.Size([512])
+output_process.0.weight torch.Size([4, 512])
+output_process.0.bias torch.Size([4])
+image_emb.0.weight torch.Size([256, 512])
+image_emb.0.bias torch.Size([256])
+xy_emb.0.weight torch.Size([112, 2])
+xy_emb.0.bias torch.Size([112])
+wh_emb.0.weight torch.Size([112, 2])
+wh_emb.0.bias torch.Size([112])
+r_emb.0.weight torch.Size([64, 1])
+r_emb.0.bias torch.Size([64])
+z_emb.0.weight torch.Size([64, 1])
+z_emb.0.bias torch.Size([64])
+ratio_emb.0.weight torch.Size([32, 1])
+ratio_emb.0.bias torch.Size([32])
+tokens_emb.0.weight torch.Size([512, 640])
+tokens_emb.0.bias torch.Size([512])
+Epoch 29: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.50it/s, loss=0.321, lr=0.0001, step=2820]
+I0219 14:06:39.160067 139966223655296 logging.py:61] Saving current state to logs/test/checkpoints/checkpoint-29/
+W0219 14:06:39.161217 139966223655296 logging.py:61] Removed shared tensor {'embed_timestep.seq_pos_enc.pe'} while saving. This should be OK, but check by verifying that you don't receive any warning while reloading
+I0219 14:06:39.240722 139966223655296 logging.py:61] Model weights saved in logs/test/checkpoints/checkpoint-29/model.safetensors
+I0219 14:06:39.353294 139966223655296 logging.py:61] Optimizer state saved in logs/test/checkpoints/checkpoint-29/optimizer.bin
+I0219 14:06:39.353653 139966223655296 logging.py:61] Scheduler state saved in logs/test/checkpoints/checkpoint-29/scheduler.bin
+I0219 14:06:39.353760 139966223655296 logging.py:61] Sampler state for dataloader 0 saved in logs/test/checkpoints/checkpoint-29/sampler.bin
+I0219 14:06:39.353837 139966223655296 logging.py:61] Sampler state for dataloader 1 saved in logs/test/checkpoints/checkpoint-29/sampler_1.bin
+I0219 14:06:39.354381 139966223655296 logging.py:61] Random states saved in logs/test/checkpoints/checkpoint-29/random_states_0.pkl
+I0219 14:06:39.435554 139966223655296 cal_trainer.py:262] Saving checkpoint to logs/test/checkpoints/checkpoint-29/
+
+
+
+
+Epoch 30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.60it/s, loss=0.486, lr=0.0001, step=2914]
+
+
+
+
+Epoch 31: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:10<00:00,  9.26it/s, loss=0.289, lr=9.99e-5, step=3008]
+
+
+
+
+Epoch 32: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.87it/s, loss=0.275, lr=9.99e-5, step=3102]
+
+
+
+Epoch 33: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.79it/s, loss=0.257, lr=9.99e-5, step=3196]
+
+
+
+
+Epoch 34: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:10<00:00,  9.28it/s, loss=0.303, lr=9.99e-5, step=3290]
+
+
+
+
+Epoch 35: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.44it/s, loss=0.42, lr=9.99e-5, step=3384]
+
+
+
+
+
+Epoch 36: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.41it/s, loss=0.208, lr=9.99e-5, step=3478]
+
+
+
+
+Epoch 37: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:10<00:00,  9.26it/s, loss=0.277, lr=9.99e-5, step=3572]
+
+
+
+Epoch 38: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.61it/s, loss=0.329, lr=9.99e-5, step=3666]
+
+
+
+
+Epoch 39: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.50it/s, loss=0.269, lr=9.99e-5, step=3760]
+I0219 14:08:18.490660 139966223655296 logging.py:61] Saving current state to logs/test/checkpoints/checkpoint-39/
+W0219 14:08:18.491872 139966223655296 logging.py:61] Removed shared tensor {'embed_timestep.seq_pos_enc.pe'} while saving. This should be OK, but check by verifying that you don't receive any warning while reloading
+I0219 14:08:18.571352 139966223655296 logging.py:61] Model weights saved in logs/test/checkpoints/checkpoint-39/model.safetensors
+I0219 14:08:18.685665 139966223655296 logging.py:61] Optimizer state saved in logs/test/checkpoints/checkpoint-39/optimizer.bin
+I0219 14:08:18.686029 139966223655296 logging.py:61] Scheduler state saved in logs/test/checkpoints/checkpoint-39/scheduler.bin
+I0219 14:08:18.686144 139966223655296 logging.py:61] Sampler state for dataloader 0 saved in logs/test/checkpoints/checkpoint-39/sampler.bin
+I0219 14:08:18.686230 139966223655296 logging.py:61] Sampler state for dataloader 1 saved in logs/test/checkpoints/checkpoint-39/sampler_1.bin
+I0219 14:08:18.686812 139966223655296 logging.py:61] Random states saved in logs/test/checkpoints/checkpoint-39/random_states_0.pkl
+############################################
+<class 'odict_items'>
+seq_pos_enc.pe torch.Size([5000, 1, 512])
+seqTransEncoder.layers.0.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.0.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.0.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.0.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.0.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.0.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.0.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.0.linear2.bias torch.Size([512])
+seqTransEncoder.layers.0.norm1.weight torch.Size([512])
+seqTransEncoder.layers.0.norm1.bias torch.Size([512])
+seqTransEncoder.layers.0.norm2.weight torch.Size([512])
+seqTransEncoder.layers.0.norm2.bias torch.Size([512])
+seqTransEncoder.layers.1.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.1.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.1.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.1.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.1.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.1.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.1.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.1.linear2.bias torch.Size([512])
+seqTransEncoder.layers.1.norm1.weight torch.Size([512])
+seqTransEncoder.layers.1.norm1.bias torch.Size([512])
+seqTransEncoder.layers.1.norm2.weight torch.Size([512])
+seqTransEncoder.layers.1.norm2.bias torch.Size([512])
+seqTransEncoder.layers.2.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.2.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.2.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.2.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.2.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.2.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.2.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.2.linear2.bias torch.Size([512])
+seqTransEncoder.layers.2.norm1.weight torch.Size([512])
+seqTransEncoder.layers.2.norm1.bias torch.Size([512])
+seqTransEncoder.layers.2.norm2.weight torch.Size([512])
+seqTransEncoder.layers.2.norm2.bias torch.Size([512])
+seqTransEncoder.layers.3.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.3.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.3.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.3.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.3.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.3.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.3.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.3.linear2.bias torch.Size([512])
+seqTransEncoder.layers.3.norm1.weight torch.Size([512])
+seqTransEncoder.layers.3.norm1.bias torch.Size([512])
+seqTransEncoder.layers.3.norm2.weight torch.Size([512])
+seqTransEncoder.layers.3.norm2.bias torch.Size([512])
+seqTransEncoder.layers.4.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.4.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.4.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.4.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.4.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.4.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.4.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.4.linear2.bias torch.Size([512])
+seqTransEncoder.layers.4.norm1.weight torch.Size([512])
+seqTransEncoder.layers.4.norm1.bias torch.Size([512])
+seqTransEncoder.layers.4.norm2.weight torch.Size([512])
+seqTransEncoder.layers.4.norm2.bias torch.Size([512])
+seqTransEncoder.layers.5.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.5.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.5.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.5.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.5.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.5.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.5.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.5.linear2.bias torch.Size([512])
+seqTransEncoder.layers.5.norm1.weight torch.Size([512])
+seqTransEncoder.layers.5.norm1.bias torch.Size([512])
+seqTransEncoder.layers.5.norm2.weight torch.Size([512])
+seqTransEncoder.layers.5.norm2.bias torch.Size([512])
+seqTransEncoder.layers.6.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.6.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.6.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.6.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.6.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.6.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.6.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.6.linear2.bias torch.Size([512])
+seqTransEncoder.layers.6.norm1.weight torch.Size([512])
+seqTransEncoder.layers.6.norm1.bias torch.Size([512])
+seqTransEncoder.layers.6.norm2.weight torch.Size([512])
+seqTransEncoder.layers.6.norm2.bias torch.Size([512])
+seqTransEncoder.layers.7.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.7.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.7.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.7.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.7.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.7.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.7.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.7.linear2.bias torch.Size([512])
+seqTransEncoder.layers.7.norm1.weight torch.Size([512])
+seqTransEncoder.layers.7.norm1.bias torch.Size([512])
+seqTransEncoder.layers.7.norm2.weight torch.Size([512])
+seqTransEncoder.layers.7.norm2.bias torch.Size([512])
+embed_timestep.seq_pos_enc.pe torch.Size([5000, 1, 512])
+embed_timestep.time_embed.0.weight torch.Size([512, 512])
+embed_timestep.time_embed.0.bias torch.Size([512])
+embed_timestep.time_embed.2.weight torch.Size([512, 512])
+embed_timestep.time_embed.2.bias torch.Size([512])
+output_process.0.weight torch.Size([4, 512])
+output_process.0.bias torch.Size([4])
+image_emb.0.weight torch.Size([256, 512])
+image_emb.0.bias torch.Size([256])
+xy_emb.0.weight torch.Size([112, 2])
+xy_emb.0.bias torch.Size([112])
+wh_emb.0.weight torch.Size([112, 2])
+wh_emb.0.bias torch.Size([112])
+r_emb.0.weight torch.Size([64, 1])
+r_emb.0.bias torch.Size([64])
+z_emb.0.weight torch.Size([64, 1])
+z_emb.0.bias torch.Size([64])
+ratio_emb.0.weight torch.Size([32, 1])
+ratio_emb.0.bias torch.Size([32])
+tokens_emb.0.weight torch.Size([512, 640])
+tokens_emb.0.bias torch.Size([512])
+############################################
+I0219 14:08:18.769010 139966223655296 cal_trainer.py:262] Saving checkpoint to logs/test/checkpoints/checkpoint-39/
+
+
+
+Epoch 40: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.61it/s, loss=0.352, lr=9.99e-5, step=3854]
+
+
+
+
+Epoch 41: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.61it/s, loss=0.299, lr=9.99e-5, step=3948]
+
+
+
+
+Epoch 42: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.88it/s, loss=0.424, lr=9.99e-5, step=4042]
+
+
+
+
+Epoch 43: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:10<00:00,  8.93it/s, loss=0.222, lr=9.99e-5, step=4136]
+
+
+
+
+Epoch 44: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.57it/s, loss=0.22, lr=9.99e-5, step=4230]
+
+
+
+
+Epoch 45: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.52it/s, loss=0.288, lr=9.99e-5, step=4324]
+
+
+
+
+Epoch 46: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:10<00:00,  9.23it/s, loss=0.406, lr=9.99e-5, step=4418]
+
+
+
+
+Epoch 47: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.54it/s, loss=0.222, lr=9.98e-5, step=4512]
+
+
+
+
+Epoch 48: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.49it/s, loss=0.255, lr=9.98e-5, step=4606]
+
+
+
+
+Epoch 49:  88%|█████████████████████████████████████████████████████████████████████████████████████████████████▏            | 83/94 [00:08<00:01,  9.84it/s, loss=0.224, lr=9.98e-5, step=4689]
+############################################
+<class 'odict_items'>
+seq_pos_enc.pe torch.Size([5000, 1, 512])
+seqTransEncoder.layers.0.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.0.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.0.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.0.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.0.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.0.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.0.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.0.linear2.bias torch.Size([512])
+seqTransEncoder.layers.0.norm1.weight torch.Size([512])
+seqTransEncoder.layers.0.norm1.bias torch.Size([512])
+seqTransEncoder.layers.0.norm2.weight torch.Size([512])
+seqTransEncoder.layers.0.norm2.bias torch.Size([512])
+seqTransEncoder.layers.1.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.1.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.1.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.1.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.1.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.1.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.1.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.1.linear2.bias torch.Size([512])
+seqTransEncoder.layers.1.norm1.weight torch.Size([512])
+seqTransEncoder.layers.1.norm1.bias torch.Size([512])
+seqTransEncoder.layers.1.norm2.weight torch.Size([512])
+seqTransEncoder.layers.1.norm2.bias torch.Size([512])
+seqTransEncoder.layers.2.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.2.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.2.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.2.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.2.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.2.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.2.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.2.linear2.bias torch.Size([512])
+seqTransEncoder.layers.2.norm1.weight torch.Size([512])
+seqTransEncoder.layers.2.norm1.bias torch.Size([512])
+seqTransEncoder.layers.2.norm2.weight torch.Size([512])
+seqTransEncoder.layers.2.norm2.bias torch.Size([512])
+seqTransEncoder.layers.3.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.3.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.3.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.3.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.3.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.3.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.3.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.3.linear2.bias torch.Size([512])
+seqTransEncoder.layers.3.norm1.weight torch.Size([512])
+seqTransEncoder.layers.3.norm1.bias torch.Size([512])
+seqTransEncoder.layers.3.norm2.weight torch.Size([512])
+seqTransEncoder.layers.3.norm2.bias torch.Size([512])
+seqTransEncoder.layers.4.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.4.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.4.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.4.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.4.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.4.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.4.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.4.linear2.bias torch.Size([512])
+seqTransEncoder.layers.4.norm1.weight torch.Size([512])
+seqTransEncoder.layers.4.norm1.bias torch.Size([512])
+seqTransEncoder.layers.4.norm2.weight torch.Size([512])
+seqTransEncoder.layers.4.norm2.bias torch.Size([512])
+seqTransEncoder.layers.5.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.5.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.5.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.5.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.5.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.5.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.5.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.5.linear2.bias torch.Size([512])
+seqTransEncoder.layers.5.norm1.weight torch.Size([512])
+seqTransEncoder.layers.5.norm1.bias torch.Size([512])
+seqTransEncoder.layers.5.norm2.weight torch.Size([512])
+seqTransEncoder.layers.5.norm2.bias torch.Size([512])
+seqTransEncoder.layers.6.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.6.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.6.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.6.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.6.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.6.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.6.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.6.linear2.bias torch.Size([512])
+seqTransEncoder.layers.6.norm1.weight torch.Size([512])
+seqTransEncoder.layers.6.norm1.bias torch.Size([512])
+seqTransEncoder.layers.6.norm2.weight torch.Size([512])
+seqTransEncoder.layers.6.norm2.bias torch.Size([512])
+seqTransEncoder.layers.7.self_attn.in_proj_weight torch.Size([1536, 512])
+seqTransEncoder.layers.7.self_attn.in_proj_bias torch.Size([1536])
+seqTransEncoder.layers.7.self_attn.out_proj.weight torch.Size([512, 512])
+seqTransEncoder.layers.7.self_attn.out_proj.bias torch.Size([512])
+seqTransEncoder.layers.7.linear1.weight torch.Size([1024, 512])
+seqTransEncoder.layers.7.linear1.bias torch.Size([1024])
+seqTransEncoder.layers.7.linear2.weight torch.Size([512, 1024])
+seqTransEncoder.layers.7.linear2.bias torch.Size([512])
+seqTransEncoder.layers.7.norm1.weight torch.Size([512])
+seqTransEncoder.layers.7.norm1.bias torch.Size([512])
+seqTransEncoder.layers.7.norm2.weight torch.Size([512])
+seqTransEncoder.layers.7.norm2.bias torch.Size([512])
+embed_timestep.seq_pos_enc.pe torch.Size([5000, 1, 512])
+embed_timestep.time_embed.0.weight torch.Size([512, 512])
+embed_timestep.time_embed.0.bias torch.Size([512])
+embed_timestep.time_embed.2.weight torch.Size([512, 512])
+embed_timestep.time_embed.2.bias torch.Size([512])
+output_process.0.weight torch.Size([4, 512])
+output_process.0.bias torch.Size([4])
+image_emb.0.weight torch.Size([256, 512])
+image_emb.0.bias torch.Size([256])
+xy_emb.0.weight torch.Size([112, 2])
+xy_emb.0.bias torch.Size([112])
+wh_emb.0.weight torch.Size([112, 2])
+wh_emb.0.bias torch.Size([112])
+r_emb.0.weight torch.Size([64, 1])
+r_emb.0.bias torch.Size([64])
+z_emb.0.weight torch.Size([64, 1])
+z_emb.0.bias torch.Size([64])
+ratio_emb.0.weight torch.Size([32, 1])
+ratio_emb.0.bias torch.Size([32])
+tokens_emb.0.weight torch.Size([512, 640])
+tokens_emb.0.bias torch.Size([512])
+Epoch 49: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.41it/s, loss=0.189, lr=9.98e-5, step=4700]
+I0219 14:09:58.086921 139966223655296 logging.py:61] Saving current state to logs/test/checkpoints/checkpoint-49/
+W0219 14:09:58.088080 139966223655296 logging.py:61] Removed shared tensor {'embed_timestep.seq_pos_enc.pe'} while saving. This should be OK, but check by verifying that you don't receive any warning while reloading
+I0219 14:09:58.166037 139966223655296 logging.py:61] Model weights saved in logs/test/checkpoints/checkpoint-49/model.safetensors
+I0219 14:09:58.277230 139966223655296 logging.py:61] Optimizer state saved in logs/test/checkpoints/checkpoint-49/optimizer.bin
+I0219 14:09:58.277590 139966223655296 logging.py:61] Scheduler state saved in logs/test/checkpoints/checkpoint-49/scheduler.bin
+I0219 14:09:58.277696 139966223655296 logging.py:61] Sampler state for dataloader 0 saved in logs/test/checkpoints/checkpoint-49/sampler.bin
+I0219 14:09:58.277775 139966223655296 logging.py:61] Sampler state for dataloader 1 saved in logs/test/checkpoints/checkpoint-49/sampler_1.bin
+I0219 14:09:58.278319 139966223655296 logging.py:61] Random states saved in logs/test/checkpoints/checkpoint-49/random_states_0.pkl
+I0219 14:09:58.359479 139966223655296 cal_trainer.py:262] Saving checkpoint to logs/test/checkpoints/checkpoint-49/
+
+
+
+
+Epoch 50: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.68it/s, loss=0.201, lr=9.98e-5, step=4794]
+
+
+
+
+Epoch 51: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.66it/s, loss=0.293, lr=9.98e-5, step=4888]
+
+
+
+
+Epoch 52: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:10<00:00,  9.24it/s, loss=0.16, lr=9.98e-5, step=4982]
+
+
+
+
+Epoch 53: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:09<00:00,  9.84it/s, loss=0.122, lr=9.98e-5, step=5076]
+
+
+
+
+Epoch 54: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:10<00:00,  9.34it/s, loss=0.162, lr=9.98e-5, step=5170]
+Epoch 55:  31%|█████████████████████████████████▉                                                                            | 29/94 [00:03<00:06,  9.86it/s, loss=0.117, lr=9.98e-5, step=5199]
+Epoch 55:  52%|█████████████████████████████████████████████████████████▎                                                    | 49/94 [00:05<00:04, 10.17it/s, loss=0.153, lr=9.98e-5, step=5219]
+Epoch 55:  71%|██████████████████████████████████████████████████████████████████████████████▍                               | 67/94 [00:07<00:03,  8.58it/s, loss=0.157, lr=9.98e-5, step=5237]
+Epoch 55:  89%|██████████████████████████████████████████████████████████████████████████████████████████████████▎           | 84/94 [00:09<00:01,  9.33it/s, loss=0.165, lr=9.98e-5, step=5254]
+Epoch 56:   6%|███████                                                                                                        | 6/94 [00:00<00:10,  8.28it/s, loss=0.165, lr=9.98e-5, step=5270]
+Epoch 56:  11%|███████████▋                                                                                                  | 10/94 [00:01<00:09,  9.23it/s, loss=0.177, lr=9.98e-5, step=5274]
+Epoch 56:  49%|█████████████████████████████████████████████████████▊                                                        | 46/94 [00:04<00:04,  9.99it/s, loss=0.185, lr=9.98e-5, step=5310]
+Epoch 56:  69%|████████████████████████████████████████████████████████████████████████████                                  | 65/94 [00:06<00:03,  9.33it/s, loss=0.124, lr=9.98e-5, step=5329]
+Epoch 56:  90%|████████████████████████████████████████████████████████████████████████████████████████████████████▎          | 85/94 [00:08<00:00, 10.00it/s, loss=0.17, lr=9.98e-5, step=5349]
+Epoch 57:  10%|██████████▋                                                                                                    | 9/94 [00:01<00:09,  9.19it/s, loss=0.159, lr=9.98e-5, step=5367]
+Epoch 57:  30%|████████████████████████████████▊                                                                             | 28/94 [00:03<00:06,  9.98it/s, loss=0.118, lr=9.98e-5, step=5386]
+Epoch 57:  31%|█████████████████████████████████▉                                                                            | 29/94 [00:03<00:06,  9.98it/s, loss=0.156, lr=9.98e-5, step=5387]
+Epoch 57:  31%|█████████████████████████████████▉                                                                            | 29/94 [00:03<00:06,  9.98it/s, loss=0.156, lr=9.98e-5, step=5387]Exception ignored in:
+Epoch 57:  31%|█████████████████████████████████▉                                                                            | 29/94 [00:03<00:06,  9.98it/s, loss=0.156, lr=9.98e-5, step=5387]Exception ignored in:

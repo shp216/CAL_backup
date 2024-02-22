@@ -1,0 +1,24 @@
+Epoch 0:   0%|                                                                                                                                        | 0/47 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/main.py", line 119, in <module>
+    app.run(main)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/main.py", line 94, in main
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/trainers/cal_trainer2.py", line 148, in train
+    self.train_epoch_CAL(epoch)
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/trainers/cal_trainer2.py", line 214, in train_epoch_CAL
+    geometry_predict = self.model(batch, noisy_batch, t)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/models/CAL.py", line 86, in forward
+    elem_cat_emb = self.cat_emb[cat_input_flat, :] #-> [1280,64]
+IndexError: tensors used as indices must be long, byte or bool tensors
+#############################################################
+batch[geometry].shape:  torch.Size([64, 20, 6])
+batch[image_features].shape:  torch.Size([64, 20, 512])
+batch[padding_mask].shape:  torch.Size([64, 20, 6])
+batch[cat].shape:  torch.Size([64, 20])
+#############################################################

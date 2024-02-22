@@ -1,0 +1,90 @@
+
+  0%|                                                                                                                                                                  | 0/2997 [00:00<?, ?it/s]
+
+  0%|                                                                                                                                                        | 1/2997 [00:05<4:14:51,  5.10s/it]
+
+  0%|                                                                                                                                                        | 2/2997 [00:09<3:49:51,  4.60s/it]
+
+  0%|▏                                                                                                                                                       | 3/2997 [00:13<3:33:35,  4.28s/it]
+
+  0%|▏                                                                                                                                                       | 4/2997 [00:17<3:28:52,  4.19s/it]
+
+  0%|▎                                                                                                                                                       | 5/2997 [00:21<3:29:14,  4.20s/it]
+
+  0%|▎                                                                                                                                                       | 6/2997 [00:25<3:28:38,  4.19s/it]
+
+  0%|▎                                                                                                                                                       | 7/2997 [00:30<3:31:06,  4.24s/it]
+
+  0%|▍                                                                                                                                                       | 8/2997 [00:34<3:27:32,  4.17s/it]
+
+  0%|▍                                                                                                                                                       | 9/2997 [00:37<3:23:56,  4.10s/it]
+
+  0%|▌                                                                                                                                                      | 10/2997 [00:41<3:20:40,  4.03s/it]
+
+  0%|▌                                                                                                                                                      | 11/2997 [00:45<3:19:13,  4.00s/it]
+
+  0%|▌                                                                                                                                                      | 12/2997 [00:50<3:22:12,  4.06s/it]
+
+  0%|▋                                                                                                                                                      | 13/2997 [00:54<3:22:31,  4.07s/it]
+
+  0%|▋                                                                                                                                                      | 14/2997 [00:58<3:24:44,  4.12s/it]
+The background image is not RGBA
+############### height가 1 보다 작음 ##################
+
+  1%|▊                                                                                                                                                      | 15/2997 [01:01<3:16:14,  3.95s/it]
+
+  1%|▊                                                                                                                                                      | 16/2997 [01:05<3:10:04,  3.83s/it]
+The background image is not RGBA
+############### height가 1 보다 작음 ##################
+
+  1%|▊                                                                                                                                                      | 17/2997 [01:09<3:07:43,  3.78s/it]
+The background image is not RGBA
+############### height가 1 보다 작음 ##################
+
+  1%|▉                                                                                                                                                      | 18/2997 [01:12<3:05:20,  3.73s/it]
+The background image is not RGBA
+############### height가 1 보다 작음 ##################
+
+  1%|▉                                                                                                                                                      | 19/2997 [01:16<3:03:56,  3.71s/it]
+The background image is not RGBA
+
+  1%|█                                                                                                                                                      | 20/2997 [01:19<3:02:31,  3.68s/it]
+The background image is not RGBA
+############### height가 1 보다 작음 ##################
+
+  1%|█                                                                                                                                                      | 21/2997 [01:23<3:02:22,  3.68s/it]
+The background image is not RGBA
+
+  1%|█                                                                                                                                                      | 22/2997 [01:27<3:02:17,  3.68s/it]
+The background image is not RGBA
+############### height가 1 보다 작음 ##################
+
+  1%|█▏                                                                                                                                                     | 23/2997 [01:31<3:03:15,  3.70s/it]
+The background image is not RGBA
+
+  1%|█▏                                                                                                                                                     | 24/2997 [01:34<3:02:11,  3.68s/it]
+  1%|█▎                                                                                                                                                     | 25/2997 [01:39<3:18:00,  4.00s/it]
+Traceback (most recent call last):
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py", line 277, in <module>
+    app.run(main)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py", line 167, in main
+    pred_geometry = sample_from_model(batch, model, config.device, noise_scheduler)*batch["padding_mask"][:, :, :4]
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py", line 58, in sample_from_model
+    geometry_pred = model(batch, noisy_batch, timesteps=t)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/models/CAL.py", line 108, in forward
+    output = self.seqTransEncoder(xseq)[1:] #time step embedding 제외
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 280, in forward
+    output = mod(output, src_mask=mask, src_key_padding_mask=src_key_padding_mask_for_layers)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/nn/modules/transformer.py", line 538, in forward
+    x = self.norm1(x + self._sa_block(x, src_mask, src_key_padding_mask))
+KeyboardInterrupt

@@ -1,0 +1,50 @@
+
+Epoch 0: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:03<00:00, 29.66it/s, loss=1.54, lr=9.4e-6, step=94]
+Epoch 1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:02<00:00, 36.97it/s, loss=1.37, lr=1.88e-5, step=188]
+
+Epoch 2: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:02<00:00, 36.31it/s, loss=1.31, lr=2.82e-5, step=282]
+Epoch 3: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:02<00:00, 37.35it/s, loss=0.978, lr=3.76e-5, step=376]
+Epoch 4: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:02<00:00, 35.64it/s, loss=1.07, lr=4.7e-5, step=470]
+Epoch 5: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:02<00:00, 37.32it/s, loss=0.88, lr=5.64e-5, step=564]
+
+Epoch 6: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:02<00:00, 36.71it/s, loss=0.967, lr=6.58e-5, step=658]
+Epoch 7: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:02<00:00, 37.10it/s, loss=0.978, lr=7.52e-5, step=752]
+Epoch 8: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:02<00:00, 35.56it/s, loss=0.937, lr=8.46e-5, step=846]
+
+Epoch 9: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [00:02<00:00, 35.02it/s, loss=0.957, lr=9.4e-5, step=940]
+Epoch 10:   1%|█▏                                                                                                              | 1/94 [00:00<00:22,  4.21it/s, loss=0.868, lr=9.41e-5, step=941]Traceback (most recent call last):
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/main.py", line 119, in <module>
+    app.run(main)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/main.py", line 94, in main
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/trainers/cal_trainer.py", line 108, in train
+    self.train_epoch_CAL(epoch)
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/trainers/cal_trainer.py", line 135, in train_epoch_CAL
+    for step, (batch, ids) in enumerate(self.train_dataloader):
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/accelerate/data_loader.py", line 461, in __iter__
+    next_batch = next(dataloader_iter)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1316, in _next_data
+    idx, data = self._get_data()
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1282, in _get_data
+    success, data = self._try_get_data()
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1120, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/multiprocessing/queues.py", line 122, in get
+    return _ForkingPickler.loads(res)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/torch/multiprocessing/reductions.py", line 305, in rebuild_storage_fd
+    fd = df.detach()
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/multiprocessing/resource_sharer.py", line 58, in detach
+    return reduction.recv_handle(conn)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/multiprocessing/connection.py", line 263, in __exit__
+    self.close()
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/multiprocessing/connection.py", line 177, in close
+    self._close()
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/multiprocessing/connection.py", line 361, in _close
+    _close(self._handle)
+KeyboardInterrupt

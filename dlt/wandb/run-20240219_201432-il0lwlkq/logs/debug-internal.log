@@ -1,0 +1,308 @@
+2024-02-19 20:14:32,138 INFO    StreamThr :1627453 [internal.py:wandb_internal():86] W&B internal server running at pid: 1627453, started at: 2024-02-19 20:14:32.138006
+2024-02-19 20:14:32,139 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: status
+2024-02-19 20:14:32,141 INFO    WriterThread:1627453 [datastore.py:open_for_write():87] open: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/run-il0lwlkq.wandb
+2024-02-19 20:14:32,141 DEBUG   SenderThread:1627453 [sender.py:send():382] send: header
+2024-02-19 20:14:32,204 DEBUG   SenderThread:1627453 [sender.py:send():382] send: run
+2024-02-19 20:14:33,064 INFO    SenderThread:1627453 [dir_watcher.py:__init__():211] watching files in: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files
+2024-02-19 20:14:33,065 INFO    SenderThread:1627453 [sender.py:_start_run_threads():1136] run started: il0lwlkq with start time 1708341272.13784
+2024-02-19 20:14:33,094 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: check_version
+2024-02-19 20:14:33,094 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: check_version
+2024-02-19 20:14:33,190 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: run_start
+2024-02-19 20:14:33,193 DEBUG   HandlerThread:1627453 [system_info.py:__init__():27] System info init
+2024-02-19 20:14:33,193 DEBUG   HandlerThread:1627453 [system_info.py:__init__():42] System info init done
+2024-02-19 20:14:33,193 INFO    HandlerThread:1627453 [system_monitor.py:start():194] Starting system monitor
+2024-02-19 20:14:33,193 INFO    SystemMonitor:1627453 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-19 20:14:33,193 INFO    SystemMonitor:1627453 [interfaces.py:start():190] Started cpu monitoring
+2024-02-19 20:14:33,194 INFO    HandlerThread:1627453 [system_monitor.py:probe():214] Collecting system info
+2024-02-19 20:14:33,194 INFO    SystemMonitor:1627453 [interfaces.py:start():190] Started disk monitoring
+2024-02-19 20:14:33,195 INFO    SystemMonitor:1627453 [interfaces.py:start():190] Started gpu monitoring
+2024-02-19 20:14:33,195 INFO    SystemMonitor:1627453 [interfaces.py:start():190] Started memory monitoring
+2024-02-19 20:14:33,196 INFO    SystemMonitor:1627453 [interfaces.py:start():190] Started network monitoring
+2024-02-19 20:14:33,221 DEBUG   HandlerThread:1627453 [system_info.py:probe():151] Probing system
+2024-02-19 20:14:33,224 DEBUG   HandlerThread:1627453 [system_info.py:_probe_git():136] Probing git
+2024-02-19 20:14:33,230 DEBUG   HandlerThread:1627453 [system_info.py:_probe_git():144] Probing git done
+2024-02-19 20:14:33,230 DEBUG   HandlerThread:1627453 [system_info.py:probe():199] Probing system done
+2024-02-19 20:14:33,230 DEBUG   HandlerThread:1627453 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-91-generic-x86_64-with-glibc2.31', 'python': '3.9.18', 'heartbeatAt': '2024-02-19T11:14:33.221505', 'startedAt': '2024-02-19T11:14:32.135471', 'docker': None, 'cuda': None, 'args': ('--config', 'configs/remote/CAL_canva_config.py', '--workdir', 'test', '--save', 'True'), 'state': 'running', 'program': '/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py', 'codePathLocal': 'inference.py', 'codePath': 'dlt/inference.py', 'git': {'remote': 'https://github.com/DH1929ds/KDH_CAL.git', 'commit': 'e05d2cb49e5e04ec28fee35fef16dee7fd1fcd6c'}, 'email': 'qkrtpghks1214@gmail.com', 'root': '/home/mineslab-ubuntu/KDH_CAL2', 'host': 'mineslabubuntu-OMEN-by-HP-Obelisk-Desktop-875-1xxx', 'username': 'mineslab-ubuntu', 'executable': '/home/mineslab-ubuntu/anaconda3/envs/DLT/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3507.5044374999998, 'min': 800.0, 'max': 5000.0}, 'cpu_freq_per_core': [{'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 2120.071, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}], 'disk': {'/': {'total': 442.83177185058594, 'used': 359.41007232666016}}, 'gpu': 'NVIDIA GeForce RTX 3070 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3070 Ti', 'memory_total': 8361213952}], 'memory': {'total': 125.6680908203125}}
+2024-02-19 20:14:33,231 INFO    HandlerThread:1627453 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-19 20:14:33,231 INFO    HandlerThread:1627453 [system_monitor.py:probe():227] Publishing system info
+2024-02-19 20:14:33,231 DEBUG   HandlerThread:1627453 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-19 20:14:34,065 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/conda-environment.yaml
+2024-02-19 20:14:35,782 DEBUG   HandlerThread:1627453 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-19 20:14:35,783 INFO    HandlerThread:1627453 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-19 20:14:35,784 DEBUG   SenderThread:1627453 [sender.py:send():382] send: files
+2024-02-19 20:14:35,784 INFO    SenderThread:1627453 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-19 20:14:35,787 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-19 20:14:35,788 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: python_packages
+2024-02-19 20:14:35,789 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 20:14:35,789 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 20:14:35,835 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 20:14:36,055 DEBUG   SenderThread:1627453 [sender.py:send():382] send: telemetry
+2024-02-19 20:14:36,065 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/conda-environment.yaml
+2024-02-19 20:14:36,065 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/wandb-metadata.json
+2024-02-19 20:14:36,065 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:14:36,065 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/requirements.txt
+2024-02-19 20:14:36,501 INFO    wandb-upload_0:1627453 [upload_job.py:push():131] Uploaded file /tmp/tmp2gd6eh67wandb/ecmtiufa-wandb-metadata.json
+2024-02-19 20:14:38,056 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:14:38,065 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:14:39,872 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 20:14:39,873 DEBUG   SenderThread:1627453 [sender.py:send():382] send: history
+2024-02-19 20:14:39,873 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 20:14:39,873 INFO    SenderThread:1627453 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 20:14:40,066 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/wandb-summary.json
+2024-02-19 20:14:42,066 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:14:43,650 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:14:43,950 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 20:14:43,950 DEBUG   SenderThread:1627453 [sender.py:send():382] send: history
+2024-02-19 20:14:43,950 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 20:14:43,952 INFO    SenderThread:1627453 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 20:14:44,066 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/wandb-summary.json
+2024-02-19 20:14:46,069 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:14:48,062 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 20:14:48,062 DEBUG   SenderThread:1627453 [sender.py:send():382] send: history
+2024-02-19 20:14:48,062 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 20:14:48,062 INFO    SenderThread:1627453 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 20:14:48,069 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/wandb-summary.json
+2024-02-19 20:14:49,385 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:14:50,070 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:14:50,788 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 20:14:50,788 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 20:14:50,789 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 20:14:51,070 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:14:51,707 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 20:14:51,708 DEBUG   SenderThread:1627453 [sender.py:send():382] send: history
+2024-02-19 20:14:51,708 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 20:14:51,708 INFO    SenderThread:1627453 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 20:14:52,070 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/wandb-summary.json
+2024-02-19 20:14:54,071 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:14:55,071 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:14:55,152 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:14:55,541 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 20:14:55,541 DEBUG   SenderThread:1627453 [sender.py:send():382] send: history
+2024-02-19 20:14:55,541 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 20:14:55,542 INFO    SenderThread:1627453 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 20:14:56,071 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/wandb-summary.json
+2024-02-19 20:14:58,072 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:14:59,072 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:14:59,477 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 20:14:59,477 DEBUG   SenderThread:1627453 [sender.py:send():382] send: history
+2024-02-19 20:14:59,477 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 20:14:59,477 INFO    SenderThread:1627453 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 20:15:00,072 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:15:00,072 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/wandb-summary.json
+2024-02-19 20:15:01,018 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:15:03,073 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:15:03,249 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 20:15:03,250 DEBUG   SenderThread:1627453 [sender.py:send():382] send: history
+2024-02-19 20:15:03,250 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 20:15:03,250 INFO    SenderThread:1627453 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 20:15:04,073 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:15:04,073 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/wandb-summary.json
+2024-02-19 20:15:05,788 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 20:15:05,788 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 20:15:05,790 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 20:15:06,243 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:15:07,073 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:15:07,074 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/config.yaml
+2024-02-19 20:15:07,322 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 20:15:07,322 DEBUG   SenderThread:1627453 [sender.py:send():382] send: history
+2024-02-19 20:15:07,322 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 20:15:07,322 INFO    SenderThread:1627453 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 20:15:08,074 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:15:08,074 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/wandb-summary.json
+2024-02-19 20:15:11,074 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:15:11,293 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 20:15:11,300 DEBUG   SenderThread:1627453 [sender.py:send():382] send: history
+2024-02-19 20:15:11,300 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 20:15:11,300 INFO    SenderThread:1627453 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 20:15:11,965 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:15:12,075 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:15:12,075 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/wandb-summary.json
+2024-02-19 20:15:15,075 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:15:15,197 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 20:15:15,197 DEBUG   SenderThread:1627453 [sender.py:send():382] send: history
+2024-02-19 20:15:15,198 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 20:15:15,198 INFO    SenderThread:1627453 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 20:15:16,075 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:15:16,076 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/wandb-summary.json
+2024-02-19 20:15:17,749 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:15:19,058 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 20:15:19,059 DEBUG   SenderThread:1627453 [sender.py:send():382] send: history
+2024-02-19 20:15:19,059 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 20:15:19,059 INFO    SenderThread:1627453 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 20:15:19,076 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:15:19,076 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/wandb-summary.json
+2024-02-19 20:15:20,076 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:15:20,788 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 20:15:20,789 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 20:15:20,789 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 20:15:21,076 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:15:22,834 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 20:15:22,834 DEBUG   SenderThread:1627453 [sender.py:send():382] send: history
+2024-02-19 20:15:22,834 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 20:15:22,834 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:15:22,836 INFO    SenderThread:1627453 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 20:15:23,077 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/wandb-summary.json
+2024-02-19 20:15:24,077 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:15:26,928 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 20:15:26,929 DEBUG   SenderThread:1627453 [sender.py:send():382] send: history
+2024-02-19 20:15:26,929 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 20:15:26,929 INFO    SenderThread:1627453 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 20:15:27,078 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:15:27,078 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/wandb-summary.json
+2024-02-19 20:15:28,078 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:15:28,644 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:15:30,931 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 20:15:30,931 DEBUG   SenderThread:1627453 [sender.py:send():382] send: history
+2024-02-19 20:15:30,931 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 20:15:30,931 INFO    SenderThread:1627453 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 20:15:31,079 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:15:31,079 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/wandb-summary.json
+2024-02-19 20:15:32,079 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:15:32,348 DEBUG   SenderThread:1627453 [sender.py:send():382] send: exit
+2024-02-19 20:15:32,348 INFO    SenderThread:1627453 [sender.py:send_exit():589] handling exit code: 255
+2024-02-19 20:15:32,348 INFO    SenderThread:1627453 [sender.py:send_exit():591] handling runtime: 59
+2024-02-19 20:15:32,349 INFO    SenderThread:1627453 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 20:15:32,349 INFO    SenderThread:1627453 [sender.py:send_exit():597] send defer
+2024-02-19 20:15:32,349 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:15:32,349 INFO    HandlerThread:1627453 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-19 20:15:32,349 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:15:32,349 INFO    SenderThread:1627453 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-19 20:15:32,349 INFO    SenderThread:1627453 [sender.py:transition_state():617] send defer: 1
+2024-02-19 20:15:32,349 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:15:32,349 INFO    HandlerThread:1627453 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-19 20:15:32,349 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:15:32,349 INFO    SenderThread:1627453 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-19 20:15:32,349 INFO    SenderThread:1627453 [sender.py:transition_state():617] send defer: 2
+2024-02-19 20:15:32,349 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:15:32,349 INFO    HandlerThread:1627453 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-19 20:15:32,349 INFO    HandlerThread:1627453 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-19 20:15:32,350 INFO    HandlerThread:1627453 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-19 20:15:32,350 DEBUG   SystemMonitor:1627453 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-19 20:15:32,350 DEBUG   SystemMonitor:1627453 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-19 20:15:32,350 DEBUG   SystemMonitor:1627453 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-19 20:15:32,350 INFO    HandlerThread:1627453 [interfaces.py:finish():202] Joined disk monitor
+2024-02-19 20:15:32,387 INFO    HandlerThread:1627453 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-19 20:15:32,387 INFO    HandlerThread:1627453 [interfaces.py:finish():202] Joined memory monitor
+2024-02-19 20:15:32,387 INFO    HandlerThread:1627453 [interfaces.py:finish():202] Joined network monitor
+2024-02-19 20:15:32,388 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:15:32,388 INFO    SenderThread:1627453 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-19 20:15:32,388 INFO    SenderThread:1627453 [sender.py:transition_state():617] send defer: 3
+2024-02-19 20:15:32,388 DEBUG   SenderThread:1627453 [sender.py:send():382] send: stats
+2024-02-19 20:15:32,388 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:15:32,388 INFO    HandlerThread:1627453 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-19 20:15:32,388 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:15:32,388 INFO    SenderThread:1627453 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-19 20:15:32,388 INFO    SenderThread:1627453 [sender.py:transition_state():617] send defer: 4
+2024-02-19 20:15:32,388 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:15:32,388 INFO    HandlerThread:1627453 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-19 20:15:32,388 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:15:32,388 INFO    SenderThread:1627453 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-19 20:15:32,388 INFO    SenderThread:1627453 [sender.py:transition_state():617] send defer: 5
+2024-02-19 20:15:32,389 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:15:32,389 INFO    HandlerThread:1627453 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-19 20:15:32,389 DEBUG   SenderThread:1627453 [sender.py:send():382] send: summary
+2024-02-19 20:15:32,389 INFO    SenderThread:1627453 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 20:15:32,389 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:15:32,389 INFO    SenderThread:1627453 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-19 20:15:32,389 INFO    SenderThread:1627453 [sender.py:transition_state():617] send defer: 6
+2024-02-19 20:15:32,389 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:15:32,389 INFO    HandlerThread:1627453 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-19 20:15:32,389 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:15:32,390 INFO    SenderThread:1627453 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-19 20:15:32,390 INFO    SenderThread:1627453 [sender.py:transition_state():617] send defer: 7
+2024-02-19 20:15:32,390 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:15:32,390 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:15:32,390 INFO    HandlerThread:1627453 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-19 20:15:32,390 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:15:32,390 INFO    SenderThread:1627453 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-19 20:15:33,080 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:15:33,081 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/wandb-summary.json
+2024-02-19 20:15:33,348 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-19 20:15:35,081 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:15:35,974 INFO    SenderThread:1627453 [sender.py:transition_state():617] send defer: 8
+2024-02-19 20:15:35,975 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: poll_exit
+2024-02-19 20:15:35,975 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:15:35,976 INFO    HandlerThread:1627453 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-19 20:15:35,977 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:15:35,977 INFO    SenderThread:1627453 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-19 20:15:35,977 INFO    SenderThread:1627453 [job_builder.py:build():296] Attempting to build job artifact
+2024-02-19 20:15:35,978 INFO    SenderThread:1627453 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-02-19 20:15:35,992 INFO    SenderThread:1627453 [job_builder.py:build():402] adding wandb-job metadata file
+2024-02-19 20:15:36,007 INFO    SenderThread:1627453 [sender.py:transition_state():617] send defer: 9
+2024-02-19 20:15:36,009 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:15:36,009 INFO    HandlerThread:1627453 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-19 20:15:36,010 DEBUG   SenderThread:1627453 [sender.py:send():382] send: artifact
+2024-02-19 20:15:36,082 INFO    Thread-12 :1627453 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:15:36,350 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-19 20:15:37,043 INFO    SenderThread:1627453 [sender.py:send_artifact():1494] sent artifact job-https___github.com_DH1929ds_KDH_CAL.git_dlt_inference.py - {'id': 'QXJ0aWZhY3Q6NzI1MDM4OTYy', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MDc1Nzk4Mg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzI1NzUzMjM0', 'versionIndex': 1}}}
+2024-02-19 20:15:37,043 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:15:37,044 INFO    SenderThread:1627453 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-19 20:15:37,044 INFO    SenderThread:1627453 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-19 20:15:37,084 INFO    SenderThread:1627453 [dir_watcher.py:finish():388] scan: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files
+2024-02-19 20:15:37,085 INFO    SenderThread:1627453 [dir_watcher.py:finish():402] scan save: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/requirements.txt requirements.txt
+2024-02-19 20:15:37,085 INFO    SenderThread:1627453 [dir_watcher.py:finish():402] scan save: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/wandb-summary.json wandb-summary.json
+2024-02-19 20:15:37,086 INFO    SenderThread:1627453 [dir_watcher.py:finish():402] scan save: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log output.log
+2024-02-19 20:15:37,087 INFO    SenderThread:1627453 [dir_watcher.py:finish():402] scan save: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/config.yaml config.yaml
+2024-02-19 20:15:37,087 INFO    SenderThread:1627453 [dir_watcher.py:finish():402] scan save: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/conda-environment.yaml conda-environment.yaml
+2024-02-19 20:15:37,087 INFO    SenderThread:1627453 [dir_watcher.py:finish():402] scan save: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/wandb-metadata.json wandb-metadata.json
+2024-02-19 20:15:37,088 INFO    SenderThread:1627453 [sender.py:transition_state():617] send defer: 10
+2024-02-19 20:15:37,088 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: poll_exit
+2024-02-19 20:15:37,089 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:15:37,089 INFO    HandlerThread:1627453 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-19 20:15:37,095 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:15:37,095 INFO    SenderThread:1627453 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-19 20:15:37,096 INFO    SenderThread:1627453 [file_pusher.py:finish():175] shutting down file pusher
+2024-02-19 20:15:37,350 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-19 20:15:37,351 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: poll_exit
+2024-02-19 20:15:37,558 INFO    wandb-upload_1:1627453 [upload_job.py:push():131] Uploaded file /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/wandb-summary.json
+2024-02-19 20:15:37,654 INFO    wandb-upload_0:1627453 [upload_job.py:push():131] Uploaded file /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/requirements.txt
+2024-02-19 20:15:37,714 INFO    wandb-upload_3:1627453 [upload_job.py:push():131] Uploaded file /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/config.yaml
+2024-02-19 20:15:37,738 INFO    wandb-upload_2:1627453 [upload_job.py:push():131] Uploaded file /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/output.log
+2024-02-19 20:15:37,749 INFO    wandb-upload_4:1627453 [upload_job.py:push():131] Uploaded file /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/files/conda-environment.yaml
+2024-02-19 20:15:37,950 INFO    Thread-11 :1627453 [sender.py:transition_state():617] send defer: 11
+2024-02-19 20:15:37,951 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:15:37,951 INFO    HandlerThread:1627453 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-19 20:15:37,952 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:15:37,952 INFO    SenderThread:1627453 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-19 20:15:37,952 INFO    SenderThread:1627453 [file_pusher.py:join():181] waiting for file pusher
+2024-02-19 20:15:37,952 INFO    SenderThread:1627453 [sender.py:transition_state():617] send defer: 12
+2024-02-19 20:15:37,953 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:15:37,953 INFO    HandlerThread:1627453 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-19 20:15:37,954 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:15:37,954 INFO    SenderThread:1627453 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-19 20:15:37,954 INFO    SenderThread:1627453 [file_stream.py:finish():595] file stream finish called
+2024-02-19 20:15:38,352 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-19 20:15:38,887 INFO    SenderThread:1627453 [file_stream.py:finish():599] file stream finish is done
+2024-02-19 20:15:38,888 INFO    SenderThread:1627453 [sender.py:transition_state():617] send defer: 13
+2024-02-19 20:15:38,888 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: poll_exit
+2024-02-19 20:15:38,889 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:15:38,889 INFO    HandlerThread:1627453 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-19 20:15:38,890 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:15:38,890 INFO    SenderThread:1627453 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-19 20:15:38,890 INFO    SenderThread:1627453 [sender.py:transition_state():617] send defer: 14
+2024-02-19 20:15:38,891 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:15:38,891 INFO    HandlerThread:1627453 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-19 20:15:38,892 DEBUG   SenderThread:1627453 [sender.py:send():382] send: final
+2024-02-19 20:15:38,892 DEBUG   SenderThread:1627453 [sender.py:send():382] send: footer
+2024-02-19 20:15:38,893 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:15:38,893 INFO    SenderThread:1627453 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-19 20:15:38,894 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-19 20:15:38,895 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: poll_exit
+2024-02-19 20:15:38,896 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-19 20:15:38,898 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: server_info
+2024-02-19 20:15:38,898 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: poll_exit
+2024-02-19 20:15:38,899 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: server_info
+2024-02-19 20:15:38,907 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-19 20:15:38,908 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-19 20:15:38,910 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 20:15:38,911 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: job_info
+2024-02-19 20:15:39,089 DEBUG   SenderThread:1627453 [sender.py:send_request():409] send_request: job_info
+2024-02-19 20:15:39,090 INFO    MainThread:1627453 [wandb_run.py:_footer_history_summary_info():3857] rendering history
+2024-02-19 20:15:39,091 INFO    MainThread:1627453 [wandb_run.py:_footer_history_summary_info():3889] rendering summary
+2024-02-19 20:15:39,091 INFO    MainThread:1627453 [wandb_run.py:_footer_sync_info():3816] logging synced files
+2024-02-19 20:15:39,092 DEBUG   HandlerThread:1627453 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-19 20:15:39,092 INFO    HandlerThread:1627453 [handler.py:finish():869] shutting down handler
+2024-02-19 20:15:39,912 INFO    WriterThread:1627453 [datastore.py:close():296] close: /home/mineslab-ubuntu/KDH_CAL2/dlt/wandb/run-20240219_201432-il0lwlkq/run-il0lwlkq.wandb
+2024-02-19 20:15:40,090 INFO    SenderThread:1627453 [sender.py:finish():1572] shutting down sender
+2024-02-19 20:15:40,090 INFO    SenderThread:1627453 [file_pusher.py:finish():175] shutting down file pusher
+2024-02-19 20:15:40,090 INFO    SenderThread:1627453 [file_pusher.py:join():181] waiting for file pusher

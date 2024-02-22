@@ -1,0 +1,17 @@
+
+Epoch 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:02<00:00, 26.79it/s, loss=0.0744, lr=4.7e-6, step=47]Traceback (most recent call last):
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/main.py", line 119, in <module>
+    app.run(main)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/main.py", line 94, in main
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/trainers/cal_trainer2.py", line 148, in train
+    self.train_epoch_CAL(epoch)
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/trainers/cal_trainer2.py", line 276, in train_epoch_CAL
+    val_loss = masked_l2_r(val_batch['geometry'], val_pred_geometry, val_batch['padding_mask'])
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/utils.py", line 77, in masked_l2_r
+    mse_loss_z = F.mse_loss(a[:, :, 5].unsqueeze(-1), b[:, :, 6].unsqueeze(-1), reduction='none') * mask[:, :, 5].unsqueeze(-1).float()
+IndexError: index 6 is out of bounds for dimension 2 with size 4

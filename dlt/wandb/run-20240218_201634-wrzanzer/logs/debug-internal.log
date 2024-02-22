@@ -1,0 +1,273 @@
+2024-02-18 20:16:34,525 INFO    MainThread:1271437 [internal.py:wandb_internal():86] W&B internal server running at pid: 1271437, started at: 2024-02-18 20:16:34.525263
+2024-02-18 20:16:34,526 INFO    WriterThread:1271437 [datastore.py:open_for_write():87] open: /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/run-wrzanzer.wandb
+2024-02-18 20:16:34,527 DEBUG   SenderThread:1271437 [sender.py:send():382] send: header
+2024-02-18 20:16:34,527 DEBUG   SenderThread:1271437 [sender.py:send():382] send: run
+2024-02-18 20:16:35,025 INFO    SenderThread:1271437 [dir_watcher.py:__init__():211] watching files in: /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files
+2024-02-18 20:16:35,026 INFO    SenderThread:1271437 [sender.py:_start_run_threads():1136] run started: wrzanzer with start time 1708254994.141376
+2024-02-18 20:16:35,033 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: check_version
+2024-02-18 20:16:35,033 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: check_version
+2024-02-18 20:16:35,135 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: run_start
+2024-02-18 20:16:35,137 DEBUG   HandlerThread:1271437 [system_info.py:__init__():27] System info init
+2024-02-18 20:16:35,137 DEBUG   HandlerThread:1271437 [system_info.py:__init__():42] System info init done
+2024-02-18 20:16:35,137 INFO    HandlerThread:1271437 [system_monitor.py:start():194] Starting system monitor
+2024-02-18 20:16:35,137 INFO    SystemMonitor:1271437 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-18 20:16:35,137 INFO    SystemMonitor:1271437 [interfaces.py:start():190] Started cpu monitoring
+2024-02-18 20:16:35,138 INFO    SystemMonitor:1271437 [interfaces.py:start():190] Started disk monitoring
+2024-02-18 20:16:35,138 INFO    HandlerThread:1271437 [system_monitor.py:probe():214] Collecting system info
+2024-02-18 20:16:35,139 INFO    SystemMonitor:1271437 [interfaces.py:start():190] Started gpu monitoring
+2024-02-18 20:16:35,139 INFO    SystemMonitor:1271437 [interfaces.py:start():190] Started memory monitoring
+2024-02-18 20:16:35,139 INFO    SystemMonitor:1271437 [interfaces.py:start():190] Started network monitoring
+2024-02-18 20:16:35,184 DEBUG   HandlerThread:1271437 [system_info.py:probe():151] Probing system
+2024-02-18 20:16:35,191 DEBUG   HandlerThread:1271437 [system_info.py:_probe_git():136] Probing git
+2024-02-18 20:16:35,207 DEBUG   HandlerThread:1271437 [system_info.py:_probe_git():144] Probing git done
+2024-02-18 20:16:35,208 DEBUG   HandlerThread:1271437 [system_info.py:probe():199] Probing system done
+2024-02-18 20:16:35,208 DEBUG   HandlerThread:1271437 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-91-generic-x86_64-with-glibc2.31', 'python': '3.9.18', 'heartbeatAt': '2024-02-18T11:16:35.185082', 'startedAt': '2024-02-18T11:16:34.045043', 'docker': None, 'cuda': None, 'args': ('--config', 'configs/remote/CAL_canva_config.py', '--workdir', 'test'), 'state': 'running', 'program': '/home/mineslab-ubuntu/KDH_CAL/dlt/main.py', 'codePathLocal': 'main.py', 'codePath': 'dlt/main.py', 'git': {'remote': 'https://github.com/DH1929ds/KDH_CAL.git', 'commit': 'e05d2cb49e5e04ec28fee35fef16dee7fd1fcd6c'}, 'email': 'qkrtpghks1214@gmail.com', 'root': '/home/mineslab-ubuntu/KDH_CAL', 'host': 'mineslabubuntu-OMEN-by-HP-Obelisk-Desktop-875-1xxx', 'username': 'mineslab-ubuntu', 'executable': '/home/mineslab-ubuntu/anaconda3/envs/DLT/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3604.7730625, 'min': 800.0, 'max': 5000.0}, 'cpu_freq_per_core': [{'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3418.036, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}, {'current': 3600.0, 'min': 800.0, 'max': 5000.0}], 'disk': {'/': {'total': 442.83177185058594, 'used': 366.16576385498047}}, 'gpu': 'NVIDIA GeForce RTX 3070 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3070 Ti', 'memory_total': 8361213952}], 'memory': {'total': 125.6680908203125}}
+2024-02-18 20:16:35,208 INFO    HandlerThread:1271437 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-18 20:16:35,208 INFO    HandlerThread:1271437 [system_monitor.py:probe():227] Publishing system info
+2024-02-18 20:16:35,208 DEBUG   HandlerThread:1271437 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-18 20:16:36,026 INFO    Thread-7  :1271437 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/conda-environment.yaml
+2024-02-18 20:16:37,785 DEBUG   HandlerThread:1271437 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-18 20:16:37,786 INFO    HandlerThread:1271437 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-18 20:16:37,787 DEBUG   SenderThread:1271437 [sender.py:send():382] send: files
+2024-02-18 20:16:37,787 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-18 20:16:37,791 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-18 20:16:37,791 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-18 20:16:37,792 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: python_packages
+2024-02-18 20:16:37,792 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: stop_status
+2024-02-18 20:16:37,794 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-18 20:16:38,026 INFO    Thread-7  :1271437 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/conda-environment.yaml
+2024-02-18 20:16:38,026 INFO    Thread-7  :1271437 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/requirements.txt
+2024-02-18 20:16:38,026 INFO    Thread-7  :1271437 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/wandb-metadata.json
+2024-02-18 20:16:38,090 DEBUG   SenderThread:1271437 [sender.py:send():382] send: telemetry
+2024-02-18 20:16:38,608 INFO    wandb-upload_0:1271437 [upload_job.py:push():131] Uploaded file /tmp/tmplkzmh3p4wandb/zyezgpc8-wandb-metadata.json
+2024-02-18 20:16:38,656 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:38,656 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:38,657 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:38,760 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:38,761 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:38,761 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:38,761 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:38,761 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:38,761 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:38,869 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:38,869 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:38,869 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:38,870 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:38,870 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:38,870 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:38,976 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:38,977 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:38,977 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:38,977 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:38,977 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:38,977 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:39,026 INFO    Thread-7  :1271437 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/output.log
+2024-02-18 20:16:39,026 INFO    Thread-7  :1271437 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/wandb-summary.json
+2024-02-18 20:16:39,073 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,074 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,074 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:39,074 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:39,074 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,074 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:39,167 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,168 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,168 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,168 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:39,168 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:39,168 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:39,261 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,261 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,261 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,261 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:39,262 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:39,262 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:39,372 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,373 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,373 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,373 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:39,373 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:39,373 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:39,475 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,476 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,476 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,476 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:39,476 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:39,476 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:39,573 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,574 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,574 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,574 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:39,574 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:39,574 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 20:16:39,575 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:39,672 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,672 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,672 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,673 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:39,673 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:39,673 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:39,768 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,768 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,768 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,769 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:39,769 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:39,769 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:39,875 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,875 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,876 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,876 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:39,876 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:39,876 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:39,971 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,972 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,972 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:39,972 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:39,972 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:39,972 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:40,026 INFO    Thread-7  :1271437 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/wandb-summary.json
+2024-02-18 20:16:40,075 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,075 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,075 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,075 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:40,076 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:40,076 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:40,181 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,182 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,182 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,182 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:40,182 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:40,182 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:40,275 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,276 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,276 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,276 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:40,276 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:40,276 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:40,369 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,369 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,369 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,370 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:40,370 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:40,370 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:40,471 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,471 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,472 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:40,472 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:40,472 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,472 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:40,569 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,569 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,569 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,570 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:40,570 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:40,570 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:40,659 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,659 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,659 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,660 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:40,660 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:40,660 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:40,748 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,748 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,748 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,748 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:40,749 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:40,749 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:40,839 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,840 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,840 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,840 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:40,840 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:40,840 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:40,978 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,979 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,979 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:40,986 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:40,986 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:40,987 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:41,026 INFO    Thread-7  :1271437 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/output.log
+2024-02-18 20:16:41,027 INFO    Thread-7  :1271437 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/wandb-summary.json
+2024-02-18 20:16:41,081 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,081 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,081 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,081 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:41,081 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:41,082 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:41,178 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,178 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,178 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,178 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:41,178 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:41,179 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:41,279 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,280 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,280 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,280 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:41,280 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:41,280 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:41,383 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,383 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,383 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,383 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:41,383 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:41,384 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:41,476 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,476 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,476 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,476 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:41,477 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:41,477 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:41,565 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,566 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,566 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,566 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:41,566 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:41,566 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:41,654 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,654 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,654 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,655 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:41,655 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:41,655 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:41,756 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,756 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,756 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 20:16:41,756 DEBUG   SenderThread:1271437 [sender.py:send():382] send: history
+2024-02-18 20:16:41,756 DEBUG   SenderThread:1271437 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 20:16:41,757 INFO    SenderThread:1271437 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 20:16:41,801 WARNING MainThread:1271437 [internal.py:wandb_internal():156] Internal process interrupt: 1
+2024-02-18 20:16:42,028 INFO    Thread-7  :1271437 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/wandb-summary.json
+2024-02-18 20:16:43,028 INFO    Thread-7  :1271437 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/output.log
+2024-02-18 20:16:44,758 DEBUG   HandlerThread:1271437 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 20:16:45,029 INFO    Thread-7  :1271437 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/output.log
+2024-02-18 20:16:48,557 WARNING MainThread:1271437 [internal.py:wandb_internal():156] Internal process interrupt: 2
+2024-02-18 20:16:48,557 ERROR   MainThread:1271437 [internal.py:wandb_internal():159] Internal process interrupted.
+2024-02-18 20:16:48,557 INFO    HandlerThread:1271437 [handler.py:finish():869] shutting down handler
+2024-02-18 20:16:48,557 INFO    WriterThread:1271437 [datastore.py:close():296] close: /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/run-wrzanzer.wandb
+2024-02-18 20:16:48,557 INFO    HandlerThread:1271437 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-18 20:16:48,558 INFO    SenderThread:1271437 [sender.py:finish():1572] shutting down sender
+2024-02-18 20:16:48,558 INFO    HandlerThread:1271437 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-18 20:16:48,558 DEBUG   SystemMonitor:1271437 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-18 20:16:48,558 INFO    HandlerThread:1271437 [interfaces.py:finish():202] Joined disk monitor
+2024-02-18 20:16:48,558 DEBUG   SystemMonitor:1271437 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-18 20:16:48,558 DEBUG   SystemMonitor:1271437 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-18 20:16:48,646 INFO    HandlerThread:1271437 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-18 20:16:48,647 INFO    HandlerThread:1271437 [interfaces.py:finish():202] Joined memory monitor
+2024-02-18 20:16:48,647 INFO    HandlerThread:1271437 [interfaces.py:finish():202] Joined network monitor
+2024-02-18 20:16:50,122 INFO    SenderThread:1271437 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-18 20:16:51,032 INFO    SenderThread:1271437 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/output.log
+2024-02-18 20:16:51,033 INFO    SenderThread:1271437 [dir_watcher.py:finish():388] scan: /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files
+2024-02-18 20:16:51,040 INFO    SenderThread:1271437 [dir_watcher.py:finish():402] scan save: /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/requirements.txt requirements.txt
+2024-02-18 20:16:51,040 INFO    SenderThread:1271437 [dir_watcher.py:finish():402] scan save: /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/wandb-summary.json wandb-summary.json
+2024-02-18 20:16:51,041 INFO    SenderThread:1271437 [dir_watcher.py:finish():402] scan save: /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/output.log output.log
+2024-02-18 20:16:51,042 INFO    SenderThread:1271437 [dir_watcher.py:finish():402] scan save: /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/config.yaml config.yaml
+2024-02-18 20:16:51,043 INFO    SenderThread:1271437 [dir_watcher.py:finish():402] scan save: /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/conda-environment.yaml conda-environment.yaml
+2024-02-18 20:16:51,049 INFO    SenderThread:1271437 [dir_watcher.py:finish():402] scan save: /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/wandb-metadata.json wandb-metadata.json
+2024-02-18 20:16:51,050 INFO    SenderThread:1271437 [file_pusher.py:finish():175] shutting down file pusher
+2024-02-18 20:16:51,051 INFO    SenderThread:1271437 [file_pusher.py:join():181] waiting for file pusher
+2024-02-18 20:16:52,139 INFO    wandb-upload_2:1271437 [upload_job.py:push():131] Uploaded file /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/output.log
+2024-02-18 20:16:52,197 INFO    wandb-upload_3:1271437 [upload_job.py:push():131] Uploaded file /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/config.yaml
+2024-02-18 20:16:52,232 INFO    wandb-upload_4:1271437 [upload_job.py:push():131] Uploaded file /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/conda-environment.yaml
+2024-02-18 20:16:52,292 INFO    wandb-upload_0:1271437 [upload_job.py:push():131] Uploaded file /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/requirements.txt
+2024-02-18 20:16:52,550 INFO    wandb-upload_1:1271437 [upload_job.py:push():131] Uploaded file /home/mineslab-ubuntu/KDH_CAL/dlt/wandb/run-20240218_201634-wrzanzer/files/wandb-summary.json
+2024-02-18 20:16:52,791 INFO    MainThread:1271437 [internal.py:handle_exit():76] Internal process exited

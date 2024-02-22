@@ -1,0 +1,12 @@
+
+  0%|                                                                                                                                                | 0/148 [00:06<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py", line 554, in <module>
+    app.run(main)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/inference.py", line 447, in main
+    real_box, pred_box = transform(real_geometry, pred_geometry)
+TypeError: transform() missing 1 required positional argument: 'scaling_size'

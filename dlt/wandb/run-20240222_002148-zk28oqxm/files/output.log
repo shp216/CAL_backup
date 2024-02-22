@@ -1,0 +1,29 @@
+
+
+Epoch 0: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:19<00:00, 27.09it/s, loss=1.91, lr=4.7e-6, step=47]I0222 00:22:14.742470 139708462752128 cal_trainer2.py:311] Epoch 0, Avg Validation Loss: 1.8494341373443604, Avg Mean IoU: 0.05412416160106659
+Epoch 0: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:21<00:00,  2.18it/s, loss=1.91, lr=4.7e-6, step=47]
+I0222 00:22:14.743538 139708462752128 logging.py:61] Saving current state to logs/test/checkpoints/checkpoint-0/
+W0222 00:22:14.744843 139708462752128 logging.py:61] Removed shared tensor {'embed_timestep.seq_pos_enc.pe'} while saving. This should be OK, but check by verifying that you don't receive any warning while reloading
+I0222 00:22:14.871089 139708462752128 logging.py:61] Model weights saved in logs/test/checkpoints/checkpoint-0/model.safetensors
+I0222 00:22:15.055535 139708462752128 logging.py:61] Optimizer state saved in logs/test/checkpoints/checkpoint-0/optimizer.bin
+I0222 00:22:15.055927 139708462752128 logging.py:61] Scheduler state saved in logs/test/checkpoints/checkpoint-0/scheduler.bin
+I0222 00:22:15.056028 139708462752128 logging.py:61] Sampler state for dataloader 0 saved in logs/test/checkpoints/checkpoint-0/sampler.bin
+I0222 00:22:15.056107 139708462752128 logging.py:61] Sampler state for dataloader 1 saved in logs/test/checkpoints/checkpoint-0/sampler_1.bin
+I0222 00:22:15.057697 139708462752128 logging.py:61] Random states saved in logs/test/checkpoints/checkpoint-0/random_states_0.pkl
+I0222 00:22:15.152823 139708462752128 cal_trainer2.py:347] Saving checkpoint to logs/test/checkpoints/checkpoint-0/
+Epoch 1: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:02<00:00, 25.56it/s, loss=1.73, lr=9.4e-6, step=94]I0222 00:22:17.481527 139708462752128 cal_trainer2.py:311] Epoch 1, Avg Validation Loss: 1.484380801518758, Avg Mean IoU: 0.09114525467157364
+Epoch 1: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:02<00:00, 20.19it/s, loss=1.73, lr=9.4e-6, step=94]
+Epoch 2:  96%|██████████████████████████████████████████████████████████████████████████████████████████    | 45/47 [00:01<00:00, 26.86it/s, loss=1.48, lr=1.39e-5, step=139]Traceback (most recent call last):
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/main.py", line 119, in <module>
+    app.run(main)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/mineslab-ubuntu/anaconda3/envs/DLT/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/main.py", line 94, in main
+    TrainLoopCAL(accelerator=accelerator, model=model, diffusion=noise_scheduler,
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/trainers/cal_trainer2.py", line 148, in train
+    self.train_epoch_CAL(epoch)
+  File "/home/mineslab-ubuntu/KDH_CAL2/dlt/trainers/cal_trainer2.py", line 218, in train_epoch_CAL
+    train_losses.append(train_loss.item())
+KeyboardInterrupt
